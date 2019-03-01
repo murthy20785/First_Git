@@ -1,0 +1,37 @@
+ # 79 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 25 01 00 00 00 08 01 FF FF # 179 | 12/02/2017 06:40:32 | CIMC | Entity presence BIOS_POST_CMPLT #0x01 | Device Present | Asserted
+ # 7A 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 25 03 00 00 00 08 01 FF FF # 17a | 12/02/2017 06:40:32 | CIMC | Entity presence RISER1_CNIC_PRS #0x03 | Device Present | Asserted
+ # 7B 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 25 05 00 00 00 08 01 FF FF # 17b | 12/02/2017 06:40:32 | CIMC | Entity presence MAIN_POWER_PRS #0x05 | Device Present | Asserted
+ # 7C 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 24 08 00 00 00 04 00 FF FF # 17c | 12/02/2017 06:40:32 | CIMC | Platform alert POWER_ON_FAIL #0x08 | Predictive Failure deasserted | Asserted
+ # 7D 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 25 0A 00 00 00 08 01 FF FF # 17d | 12/02/2017 06:40:32 | CIMC | Entity presence FAN2_PRSNT #0x0a | Device Present | Asserted
+ # 7E 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 25 0C 00 00 00 08 01 FF FF # 17e | 12/02/2017 06:40:32 | CIMC | Entity presence FAN4_PRSNT #0x0c | Device Present | Asserted
+ # 7F 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 25 0E 00 00 00 08 01 FF FF # 17f | 12/02/2017 06:40:32 | CIMC | Entity presence FAN6_PRSNT #0x0e | Device Present | Asserted
+ # 80 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 25 1C 00 00 00 08 01 FF FF # 180 | 12/02/2017 06:40:32 | CIMC | Entity presence RISER2_PRESENT #0x1c | Device Present | Asserted
+ # 81 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 25 1E 00 00 00 08 01 FF FF # 181 | 12/02/2017 06:40:32 | CIMC | Entity presence RISER2_PRESENT_2 #0x1e | Device Present | Asserted
+ # 82 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 25 20 00 00 00 08 01 FF FF # 182 | 12/02/2017 06:40:32 | CIMC | Entity presence RISER1_PRESENT_2 #0x20 | Device Present | Asserted
+ # 83 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 25 22 00 00 00 08 01 FF FF # 183 | 12/02/2017 06:40:32 | CIMC | Entity presence RISER1_PRESENT_1 #0x22 | Device Present | Asserted
+ # 84 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 25 36 00 00 00 08 01 FF FF # 184 | 12/02/2017 06:40:32 | CIMC | Entity presence P2_PRESENT #0x36 | Device Present | Asserted
+ # 85 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 24 3A 00 00 00 7F 01 FF FF # 185 | 12/02/2017 06:40:32 | CIMC | Platform alert LED_PSU_STATUS #0x3a | LED is on | Asserted
+ # 86 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 24 3A 00 00 00 7F 04 FF FF # 186 | 12/02/2017 06:40:32 | CIMC | Platform alert LED_PSU_STATUS #0x3a | LED color is green | Asserted
+ # 87 01 00 00 01 02 00 00 E0 4A 22 5A 20 00 04 24 3C 00 00 00 7F 01 FF FF # 187 | 12/02/2017 06:40:32 | CIMC | Platform alert LED_FAN_STATUS #0x3c | LED is on | Asserted
+ # 88 01 00 00 01 02 00 00 E1 4A 22 5A 20 00 04 24 3C 00 00 00 7F 04 FF FF # 188 | 12/02/2017 06:40:33 | CIMC | Platform alert LED_FAN_STATUS #0x3c | LED color is green | Asserted
+ # 89 01 00 00 01 02 00 00 E1 4A 22 5A 20 00 04 0D 44 00 00 00 6F 00 FF FF # 189 | 12/02/2017 06:40:33 | CIMC | Drive slot(Bay) HDD1_STATUS #0x44 | Drive Presence | Asserted
+ # 8A 01 00 00 01 02 00 00 E1 4A 22 5A 20 00 04 25 04 00 00 00 08 01 FF FF # 18a | 12/02/2017 06:40:33 | CIMC | Entity presence SAS_MEZZ_PRENT #0x04 | Device Present | Asserted
+ # 8B 01 00 00 01 02 00 00 E1 4A 22 5A 20 00 04 25 09 00 00 00 08 01 FF FF # 18b | 12/02/2017 06:40:33 | CIMC | Entity presence FAN1_PRSNT #0x09 | Device Present | Asserted
+ # 8C 01 00 00 01 02 00 00 E1 4A 22 5A 20 00 04 25 0B 00 00 00 08 01 FF FF # 18c | 12/02/2017 06:40:33 | CIMC | Entity presence FAN3_PRSNT #0x0b | Device Present | Asserted
+ # 8D 01 00 00 01 02 00 00 E1 4A 22 5A 20 00 04 25 0D 00 00 00 08 01 FF FF # 18d | 12/02/2017 06:40:33 | CIMC | Entity presence FAN5_PRSNT #0x0d | Device Present | Asserted
+ # 8E 01 00 00 01 02 00 00 E1 4A 22 5A 20 00 04 25 1D 00 00 00 08 01 FF FF # 18e | 12/02/2017 06:40:33 | CIMC | Entity presence RISER1_PRESENT #0x1d | Device Present | Asserted
+ # 8F 01 00 00 01 02 00 00 E1 4A 22 5A 20 00 04 25 1F 00 00 00 08 01 FF FF # 18f | 12/02/2017 06:40:33 | CIMC | Entity presence RISER1_PRESENT_3 #0x1f | Device Present | Asserted
+ # 90 01 00 00 01 02 00 00 E1 4A 22 5A 20 00 04 25 23 00 00 00 08 01 FF FF # 190 | 12/02/2017 06:40:33 | CIMC | Entity presence RISER2_CNIC_PRST #0x23 | Device Present | Asserted
+ # 91 01 00 00 01 02 00 00 E2 4A 22 5A 20 00 04 25 35 00 00 00 08 01 FF FF # 191 | 12/02/2017 06:40:34 | CIMC | Entity presence P1_PRESENT #0x35 | Device Present | Asserted
+ # 92 01 00 00 01 02 00 00 E2 4A 22 5A 20 00 04 24 3B 00 00 00 7F 01 FF FF # 192 | 12/02/2017 06:40:34 | CIMC | Platform alert LED_TEMP_STATUS #0x3b | LED is on | Asserted
+ # 93 01 00 00 01 02 00 00 E2 4A 22 5A 20 00 04 24 3B 00 00 00 7F 04 FF FF # 193 | 12/02/2017 06:40:34 | CIMC | Platform alert LED_TEMP_STATUS #0x3b | LED color is green | Asserted
+ # 94 01 00 00 01 02 00 00 E2 4A 22 5A 20 00 04 24 3D 00 00 00 7F 01 FF FF # 194 | 12/02/2017 06:40:34 | CIMC | Platform alert LED_HLTH_STATUS #0x3d | LED is on | Asserted
+ # 95 01 00 00 01 02 00 00 E2 4A 22 5A 20 00 04 24 3D 00 00 00 7F 04 FF FF # 195 | 12/02/2017 06:40:34 | CIMC | Platform alert LED_HLTH_STATUS #0x3d | LED color is green | Asserted
+ # 96 01 00 00 01 02 00 00 E2 4A 22 5A 20 00 04 0D 45 00 00 00 6F 00 FF FF # 196 | 12/02/2017 06:40:34 | CIMC | Drive slot(Bay) HDD2_STATUS #0x45 | Drive Presence | Asserted
+ # 97 01 00 00 01 02 00 00 EA 4A 22 5A 20 00 04 08 24 00 00 00 6F 30 FF 00 # 197 | 12/02/2017 06:40:42 | CIMC | Power supply PSU1_STATUS #0x24 | Presence detected |  | Asserted
+ # 98 01 00 00 01 02 00 00 EC 4A 22 5A 20 00 04 08 25 00 00 00 6F 30 FF 00 # 198 | 12/02/2017 06:40:44 | CIMC | Power supply PSU2_STATUS #0x25 | Presence detected |  | Asserted
+ # 99 01 00 00 01 02 00 00 EC 4A 22 5A 20 00 04 08 3E 00 00 00 0B 00 FF FF # 199 | 12/02/2017 06:40:44 | CIMC | Power supply PS_RDNDNT_MODE #0x3e | Fully Redundant | Asserted
+ # 9A 01 00 00 01 02 00 00 EE 4A 22 5A 20 00 04 08 2D 00 00 00 03 01 FF FF # 19a | 12/02/2017 06:40:46 | CIMC | Power supply PSU1_PWRGD #0x2d | State Asserted | Asserted
+ # 9B 01 00 00 01 02 00 00 EE 4A 22 5A 20 00 04 08 2E 00 00 00 03 01 FF FF # 19b | 12/02/2017 06:40:46 | CIMC | Power supply PSU1_AC_OK #0x2e | State Asserted | Asserted
+ # 9C 01 00 00 01 02 00 00 F0 4A 22 5A 20 00 04 08 2F 00 00 00 03 01 FF FF # 19c | 12/02/2017 06:40:48 | CIMC | Power supply PSU2_PWRGD #0x2f | State Asserted | Asserted
+ # 9D 01 00 00 01 02 00 00 F0 4A 22 5A 20 00 04 08 30 00 00 00 03 01 FF FF # 19d | 12/02/2017 06:40:48 | CIMC | Power supply PSU2_AC_OK #0x30 | State Asserted | Asserted

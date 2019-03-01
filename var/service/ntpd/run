@@ -1,0 +1,3 @@
+#!/bin/bash
+exec ntpd -g -n 2>&1 /var/log/ntpd.log 
+

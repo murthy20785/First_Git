@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ -e /sbin/flexd ]
+then
+    exec /sbin/flexd >/dev/null 2>/dev/null < /dev/null
+elif [ -e /usr/local/bin/flexd ]
+then
+    exec /usr/local/bin/flexd >/dev/null 2>/dev/null < /dev/null    
+else
+    exec /opt/sbin/flexd >/dev/null 2>/dev/null < /dev/null
+fi
+

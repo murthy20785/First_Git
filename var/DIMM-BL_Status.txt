@@ -1,0 +1,364 @@
+Generate DIMM Blacklisting Tech Support Logs
+====================== DIMM BLACK LISTING SUMMARY ========================
+====================== BLACKLISTING STATUS SUMMARY ======================
+==== BlackListing Status : A1 : MAP IN
+==== BlackListing Status : A2 : MAP IN
+==== BlackListing Status : B1 : MAP IN
+==== BlackListing Status : B2 : MAP IN
+==== BlackListing Status : C1 : MAP IN
+==== BlackListing Status : D1 : MAP IN
+==== BlackListing Status : E1 : MAP IN
+==== BlackListing Status : E2 : MAP IN
+==== BlackListing Status : F1 : MAP IN
+==== BlackListing Status : F2 : MAP IN
+==== BlackListing Status : G1 : MAP IN
+==== BlackListing Status : H1 : MAP IN
+
+====================== SUMMARY OF DIMM ERRORS ======================
+NO DIMM ECC ERRORS ON THIS BLADE
+
+====================== DIMM BL RAM DATABASE DUMP ========================
+
+====== RAM DB DUMP =====
+--- Control Header :
+    DataBaseFormatVersion       : 1
+    FaultSensorInitDone         : 0x0c
+    SyncTaskInitDone            : 0x01
+    DimmBLEnabledBySAM          : FALSE
+    MostRecentHostBootTime      : Thu Jan  1 00:00:00 1970
+    PreviousHostBootTime        : Thu Jan  1 00:00:00 1970
+    MostRecentHostShutdownTime  : None
+    ErrorSamplingIntervalLength : 1209600
+    DBSyncPeriod                : 3600
+    CurrentIntervalIndex        : 5
+
+------------------------------ PER DIMM ERROR COUNTS -------------------------
+                 CORRECTABLE ERRORS      UNCORRECTABLE ERRORS       UC Errors
+ DIMM ID         Total    This Boot       Total     This Boot        in MRC  
+------------------------------------------------------------------------------
+      A1            0            0           0             0           No
+      A2            0            0           0             0           No
+      B1            0            0           0             0           No
+      B2            0            0           0             0           No
+      C1            0            0           0             0           No
+      D1            0            0           0             0           No
+      E1            0            0           0             0           No
+      E2            0            0           0             0           No
+      F1            0            0           0             0           No
+      F2            0            0           0             0           No
+      G1            0            0           0             0           No
+      H1            0            0           0             0           No
+
+====================== COMPLETE DIMM SPD DUMP ========================
+==== SPD DATA for DIMM  A1 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x00
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0x1590
+==== SPD DATA for DIMM  A2 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x01
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0x4cd6
+==== SPD DATA for DIMM  B1 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x08
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0xffe2
+==== SPD DATA for DIMM  B2 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x09
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0xa6a4
+==== SPD DATA for DIMM  C1 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x10
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0xd155
+==== SPD DATA for DIMM  D1 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x18
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0x3b27
+==== SPD DATA for DIMM  E1 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x20
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0x8c3b
+==== SPD DATA for DIMM  E2 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x21
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0xd57d
+==== SPD DATA for DIMM  F1 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x28
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0x6649
+==== SPD DATA for DIMM  F2 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x29
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0x3f0f
+==== SPD DATA for DIMM  G1 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x30
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0x48fe
+==== SPD DATA for DIMM  H1 ====
+SPD Format Version  : 2
+BLACKLISTING THRESHOLDS ===
+   Correctable   : 0
+   Uncorrectable : 1
+CURRENT CONFIGURATION ===
+   ServerSerialNumber : FCH18177T5P
+   DimmLocation       : 0x38
+   ServerType          : (12) : C240
+   CORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   UNCORRECTABLE ERRORS ===
+      SinceLastServerBoot : 0
+      Cummulative         : 0
+   Property Flags === 
+      DIMM Degraded State         : 0
+      UC Error Encountered in MRC : 0
+PREVIOUS CONFIGURATION ===
+   ServerSerialNumber : None
+   DimmLocation       : 0x00
+   ServerType          : (0) : None
+   Correctable ECC Error Count : 0
+   Unorrectable ECC Error Count : 0
+
+CRC = 0xa28c

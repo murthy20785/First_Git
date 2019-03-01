@@ -1,0 +1,4 @@
+#!/bin/sh
+
+exec /usr/local/bin/ffud --mcserver >/dev/null 2>/dev/null < /dev/null    
+

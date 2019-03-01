@@ -1,0 +1,18 @@
+#!/bin/sh
+mkdir -p /flash/data0/etc/certs
+mkdir -p /flash/data0/etc/certs/cacerts
+mkdir -p /flash/data0/etc/certs/csr
+cd /etc
+rm -rf certs
+ln -s /flash/data0/etc/certs certs
+cd /
+if [ ! -f  /etc/certs/host.cert ]; then
+	cp /etc/default/certs/host.cert /etc/certs
+fi
+if [ ! -f  /etc/certs/host.key ]; then
+	cp /etc/default/certs/host.key /etc/certs
+fi
+chmod 600 /etc/certs/host.key
+rm -f /tmp/sm_running
+rm -f /tmp/aim/dynamic/config/sm_running
+exec sm

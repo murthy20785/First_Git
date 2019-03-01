@@ -1,0 +1,172 @@
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: setLogLevel(): logLevel changed to 6 (LOG_INFO)
+5:2017 Dec  2 06:41:00:BMC:avct_server:1808: Log levels higher than WARNING(4) currently enabled:
+5:2017 Dec  2 06:41:00:BMC:avct_server:1808:   AVCT_LOG_NOTIFY enabled
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808:   AVCT_LOG_INFO enabled
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: NOTE: Signals configured to not be caught.
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: Configurable Parameters storage 
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: in AIM.
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: AIM Init resp = 1
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: Version 3.63.6.3, Built at 22:14:39 on May 14 2014.
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: Initializing Configuration Database.
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: Registered APS Config Events:
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: 1) vkvm_bool_local_disable
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: 2) gui_event_rp_config_changed
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: 3) vkvm_enable_video_capture
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: 4) event_ipmi_power_state_change
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: 5) vkvm_bool_show_power_controls
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: Failed to retrieve vKVM Disabled state.
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: Initializing USB mouse and keyboard.
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: USB Keyboard driver opened.
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: USB mouse driver opened.
+6:2017 Dec  2 06:41:00:BMC:avct_server:1808: Calling avct_init_video_capture()...
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Initialized RVAS session (drop 11 rvas kit)
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Network Send Optimization Allowed for all packets (max header size is 4096 bytes, max packet size is 32760 bytes)
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: ALLOC'd 5124KB for RVAS tile fetches
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Apply 0x1000 byte offset to RVAS tile fetch Buffer: move from 0x403f2000
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: to 0x403f3000
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: ALLOC'd 4329472B for RLE buffer
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Apply 0x1000 byte offset to RLE Buffer: move from 0x408f3000
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: to 0x408f4000
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: ALLOC'd 68KB for VGA Font Tables
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Apply 0x1000 byte offset to VGA Font Table Buffer: move from 0x40d14000
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: to 0x40d15000
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: ALLOC'd 1280B for RVAS GRCE registers
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: ALLOC'd 768B for RVAS Request Array
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: ALLOC'd 64B for RVAS Request Structure
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: X86 MMIO at 0x40425000  mapped to 0x40018000
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: ************************
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Pilot Specific Regs at 0x40426000  mapped to 0x40D25000
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: ************************
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: DDR2/3  at 0x40300000  mapped to 0x40D26000
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: ECCReg == 0xa8354367
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: ECC Enabled!
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: LOWER ECC ADDRESS = 0x80800000
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: UPPER ECC ADDRESS = 0x87DFFFFF
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Graphics Core Middle Address Reg is 0x807fffff
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Graphics Core Upper Address Reg is 0x0
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: ************************
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Video Throttle is set to 10ms
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Default stack size = 2093056 bytes 
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Creating thread with stack size = 262144 bytes
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: AVOCENT: Video Processing API version 1.3 (Dual Threaded) initialized.
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: 10ms pause after each delta frame (simple throttle)
+6:2017 Dec  2 06:41:01:BMC:avct_server:1854: >>> RVASEventProcessingThread() - Task started, ppid=1839, pid=1854, ID=0xc004
+6:2017 Dec  2 06:41:01:BMC:avct_server:1854: RVAS Context 0x0 started
+6:2017 Dec  2 06:41:01:BMC:avct_server:1854: LoadNewVideoSettings: mode = 3, res = 1024x768, color depth = 32bpp, 1024 stride
+6:2017 Dec  2 06:41:01:BMC:avct_server:1841: Received vkvm_enable_video_capture Event (type=1, size=0)
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Initializing vDisk Interface 0.
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:ParseUsage() - Usage: Remote Media
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:SetLUNUsage() - Usage: 0x01 for LUN 0
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:SetLUNUsage() - Usage: 0x01 for LUN 1
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:SetLUNUsage() - Usage: 0x01 for LUN 2
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:ParseUsage() - Usage: Image Manager Store #1
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:SetLUNUsage() - Usage: 0x10 for LUN 3
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:SetLUNUsage() - Usage: 0x10 for LUN 4
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:SetLUNUsage() - Usage: 0x10 for LUN 5
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:SetLUNUsage() - Usage: 0x10 for LUN 6
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - USB vDisk device driver opened.
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:ParseConfig() - Config: 0f+0f+0f+0f+0f+0f+0f
+3:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Allocated 16384 bytes for write buffer for interface 0.
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Added vDisk device 1(00/00).
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Added vDisk device 2(00/01).
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Added vDisk device 3(00/02).
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Added vDisk device 4(00/03).
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Added vDisk device 5(00/04).
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Added vDisk device 6(00/05).
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Added vDisk device 7(00/06).
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Initializing vDisk Interface 1.
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Interface 1 has no usages, skipping.
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Initializing vDisk Interface 2.
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Interface 2 has no usages, skipping.
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Initializing vDisk Interface 3.
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: vDisk Manager:VDiskInit() - Interface 3 has no usages, skipping.
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Setting variable 'VDISK_SETUP1' to '00+00+00+00+00'.
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: AvmpSetVdiskConfig() - Successfully set vdisk config to 00+00+00+00+00
+6:2017 Dec  2 06:41:01:BMC:avct_server:1808: Failed to retrieve variable 'USB_HUB_PRESENT'.
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: vDisk Manager:VDiskConfig() - vDisk configured.
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Initializing transport manager
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Initializing protocol handler manager
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: connectMgrInit(): Initializing connection manager for 24 connections (first time)
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Initializing SSL library.
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Unable to load Pilot Crypto engine module
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Failed to retrieve variable 'CERT_FILE'.
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Certificate file path = '/etc/certs/host.cert'
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Failed to retrieve variable 'KEY_FILE'.
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Private key file path = '/etc/certs/host.key'
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Server certificate loaded.
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Default stack size = 2093056 bytes 
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Creating thread with stack size = 262144 bytes
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Initializing APCP protocol.
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: ApcpInit() APCP Inactivity Timeout = 60.
+6:2017 Dec  2 06:41:02:BMC:avct_server:1808: Initializing AVSP protocol.
+6:2017 Dec  2 06:41:03:BMC:avct_server:1883: >>> socketListen() - Task started, ppid=1839, pid=1883
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: AvspInit() AVSP Video Send Timeout = 5.
+4:2017 Dec  2 06:41:03:BMC:avct_server:1808: protocolRegister: protocol AVSP registered
+4:2017 Dec  2 06:41:03:BMC:avct_server:1808: protocolRegister: protocol AVS2 registered
+6:2017 Dec  2 06:41:03:BMC:avct_server:1883: socketListen() - Calling accept(17)
+7:2017 Dec  2 06:41:03:BMC:avct_server:1808: sm_lib.c:1215:sm_session_register() of vKVM
+7:2017 Dec  2 06:41:03:BMC:avct_server:1808: sm_lib.c:1283:sm_session_register() of vKVM, rc=0
+5:2017 Dec  2 06:41:03:BMC:avct_server:1808: AvspInit() - aim_event_register failed for event_vkvm_session_exit with error code: 0
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Initializing AVMP protocol.
+4:2017 Dec  2 06:41:03:BMC:avct_server:1808: protocolRegister: protocol AVMP registered
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating AVMP device 0 (vDisk = 1).
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating AVMP device 1 (vDisk = 2).
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating AVMP device 2 (vDisk = 3).
+7:2017 Dec  2 06:41:03:BMC:avct_server:1808: sm_lib.c:1215:sm_session_register() of vMedia
+7:2017 Dec  2 06:41:03:BMC:avct_server:1808: sm_lib.c:1283:sm_session_register() of vMedia, rc=0
+4:2017 Dec  2 06:41:03:BMC:avct_server:1808: protocolRegister: protocol APCP registered
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Default stack size = 2093056 bytes 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating thread with stack size = 262144 bytes
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Default stack size = 2093056 bytes 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating thread with stack size = 262144 bytes
+6:2017 Dec  2 06:41:03:BMC:avct_server:1886: >>> MouseInputHandler() - Task started, ppid=1839, pid=1886
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Default stack size = 2093056 bytes 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating thread with stack size = 262144 bytes
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: vDisk Manager:VDiskStart() - Starting interface 0.
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Default stack size = 2093056 bytes 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating thread with stack size = 262144 bytes
+6:2017 Dec  2 06:41:03:BMC:avct_server:1887: >>> KbdInputHandler() - Task started, ppid=1839, pid=1887
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: vDisk Manager:VDiskStart() - Starting interface 1.
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Default stack size = 2093056 bytes 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating thread with stack size = 262144 bytes
+6:2017 Dec  2 06:41:03:BMC:avct_server:1888: USB Thread started.
+6:2017 Dec  2 06:41:03:BMC:avct_server:1888: Restarting USB interface...
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: vDisk Manager:VDiskStart() - Starting interface 2.
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Default stack size = 2093056 bytes 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating thread with stack size = 262144 bytes
+6:2017 Dec  2 06:41:03:BMC:avct_server:1889: >>> vDisk Manager:VDiskHandler() - Task started, ppid=1839, pid=1889
+6:2017 Dec  2 06:41:03:BMC:avct_server:1890: >>> vDisk Manager:VDiskHandler() - Task started, ppid=1839, pid=1890
+6:2017 Dec  2 06:41:03:BMC:avct_server:1890: vDisk Manager:VDiskHandler() - Interface 1 not configured or invalid device file, exiting...
+6:2017 Dec  2 06:41:03:BMC:avct_server:1890: >>> vDisk Manager:VDiskHandler() - pthread_exit(), ppid=1839, pid=1890
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: vDisk Manager:VDiskStart() - Starting interface 3.
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Default stack size = 2093056 bytes 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1891: >>> vDisk Manager:VDiskHandler() - Task started, ppid=1839, pid=1891
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating thread with stack size = 262144 bytes
+6:2017 Dec  2 06:41:03:BMC:avct_server:1891: vDisk Manager:VDiskHandler() - Interface 2 not configured or invalid device file, exiting...
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Default stack size = 2093056 bytes 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1891: >>> vDisk Manager:VDiskHandler() - pthread_exit(), ppid=1839, pid=1891
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating thread with stack size = 262144 bytes
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Default stack size = 2093056 bytes 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: Creating thread with stack size = 262144 bytes
+6:2017 Dec  2 06:41:03:BMC:avct_server:1893: >>> vDisk Manager:VDiskHandler() - Task started, ppid=1839, pid=1893
+6:2017 Dec  2 06:41:03:BMC:avct_server:1893: vDisk Manager:VDiskHandler() - Interface 3 not configured or invalid device file, exiting...
+6:2017 Dec  2 06:41:03:BMC:avct_server:1895: Image Manager:ImgMgrMain() - Image Manager Started.
+6:2017 Dec  2 06:41:03:BMC:avct_server:1895: Image Manager:AddStore() - Creating store type 1.
+6:2017 Dec  2 06:41:03:BMC:avct_server:1896: >>> VideoServer() - Task started, ppid=1839, pid=1896, ID=0x3c00d
+6:2017 Dec  2 06:41:03:BMC:avct_server:1893: >>> vDisk Manager:VDiskHandler() - pthread_exit(), ppid=1839, pid=1893
+4:2017 Dec  2 06:41:03:BMC:avct_server:1808: protocolDLLInit() - Opened DLL libcscopt.so for protocol: CSCO (0x9f)
+4:2017 Dec  2 06:41:03:BMC:avct_server:1895: Image Manager:AddStore() - Failed to open store path ("").
+6:2017 Dec  2 06:41:03:BMC:avct_server:1896: Waiting for connection from DVC reference client.
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: libcscopt.so: protocol_dll_initialize() - registering protocol CSCO
+6:2017 Dec  2 06:41:03:BMC:avct_server:1895: Image Manager:AddStore() - Image Store 2 unknown or not configured.
+6:2017 Dec  2 06:41:03:BMC:avct_server:1898: libcscopt.so: >>> protocol_thread_task() - Task started, ppid=1839, pid=1898
+4:2017 Dec  2 06:41:03:BMC:avct_server:1808: protocolRegister: protocol CSCO registered
+6:2017 Dec  2 06:41:03:BMC:avct_server:1895: Image Manager:AddStore() - Image Store 3 unknown or not configured.
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: load_protocol_dlls() - protocol DLL libcscopt.so successfully loaded
+6:2017 Dec  2 06:41:03:BMC:avct_server:1895: Image Manager:PrintStoreList() - Store List
+6:2017 Dec  2 06:41:03:BMC:avct_server:1895: Image Manager:PrintStoreList() - Store 0 - Type: 00, Size: 00000000, Free: 00000000, Range: 00-00, Path: 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1895: Image Manager:PrintStoreList() - Store 1 - Type: 01, Size: 00000000, Free: 00000000, Range: 01-04, Path: ""
+6:2017 Dec  2 06:41:03:BMC:avct_server:1895: Image Manager:PrintStoreList() - Store 2 - Type: 00, Size: 00000000, Free: 00000000, Range: 00-00, Path: 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1895: Image Manager:PrintStoreList() - Store 3 - Type: 00, Size: 00000000, Free: 00000000, Range: 00-00, Path: 
+6:2017 Dec  2 06:41:03:BMC:avct_server:1895: Image Manager:PrintImageList() - Image List
+6:2017 Dec  2 06:41:03:BMC:avct_server:1808: IpcSvcMain() - unlink(/tmp/rpSocket) returned -1.

@@ -1,0 +1,23 @@
+#!/bin/bash
+cd /
+program=vkvm_pm
+SERVER=/usr/local/bin/$program
+
+function vkvm_pm_cleanup
+{
+    SIGNAL=$1
+    KILLED=`killall -$SIGNAL $program 2>&1 | grep 'no process killed'`
+    if [[ "$KILLED" == "" ]]
+    then
+        logger -t "service-run-vkvm_pm-pilot3" killed all vkvm_pm processes with $SIGNAL
+        sleep 1
+    fi
+}
+
+# Ensure no vkvm_pm daemon are running before starting it up
+# First try to dump core so we can detect if this happened
+vkvm_pm_cleanup SIGSEGV
+# Then ensure it is terminated by using a signal that cannot be handled
+vkvm_pm_cleanup SIGKILL
+exec $SERVER
+

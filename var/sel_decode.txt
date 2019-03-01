@@ -1,0 +1,2899 @@
+---
+eventLogMaxEntries: 413
+eventLogList: 
+---
+  Id: 413
+  severity: Normal
+  dateTime: 2017-12-02 06:40:48 
+  dateTimeOrder: 00000
+  description: "PSU2 PSU2_AC_OK: Power Supply sensor for PSU2, State Asserted"
+
+---
+  Id: 412
+  severity: Normal
+  dateTime: 2017-12-02 06:40:48 
+  dateTimeOrder: 00001
+  description: "PSU2 PSU2_PWRGD: Power Supply sensor for PSU2, State Asserted"
+
+---
+  Id: 411
+  severity: Normal
+  dateTime: 2017-12-02 06:40:46 
+  dateTimeOrder: 00002
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 410
+  severity: Normal
+  dateTime: 2017-12-02 06:40:46 
+  dateTimeOrder: 00003
+  description: "PSU1 PSU1_PWRGD: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 409
+  severity: Normal
+  dateTime: 2017-12-02 06:40:44 
+  dateTimeOrder: 00004
+  description: "PS_RDNDNT_MODE: PS Redundancy sensor, Fully Redundant was asserted"
+
+---
+  Id: 408
+  severity: Normal
+  dateTime: 2017-12-02 06:40:44 
+  dateTimeOrder: 00005
+  description: "PSU2 PSU2_STATUS: Power Supply sensor for PSU2, Presence detected was asserted"
+
+---
+  Id: 407
+  severity: Normal
+  dateTime: 2017-12-02 06:40:42 
+  dateTimeOrder: 00006
+  description: "PSU1 PSU1_STATUS: Power Supply sensor for PSU1, Presence detected was asserted"
+
+---
+  Id: 406
+  severity: Normal
+  dateTime: 2017-12-02 06:40:34 
+  dateTimeOrder: 00007
+  description: "HDD2_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 405
+  severity: Informational
+  dateTime: 2017-12-02 06:40:34 
+  dateTimeOrder: 00008
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 404
+  severity: Informational
+  dateTime: 2017-12-02 06:40:34 
+  dateTimeOrder: 00009
+  description: "LED_HLTH_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 403
+  severity: Informational
+  dateTime: 2017-12-02 06:40:34 
+  dateTimeOrder: 00010
+  description: "LED_TEMP_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 402
+  severity: Informational
+  dateTime: 2017-12-02 06:40:34 
+  dateTimeOrder: 00011
+  description: "LED_TEMP_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 401
+  severity: Normal
+  dateTime: 2017-12-02 06:40:34 
+  dateTimeOrder: 00012
+  description: "P1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 400
+  severity: Normal
+  dateTime: 2017-12-02 06:40:33 
+  dateTimeOrder: 00013
+  description: "RISER2_CNIC_PRST: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 399
+  severity: Normal
+  dateTime: 2017-12-02 06:40:33 
+  dateTimeOrder: 00014
+  description: "RISER1_PRESENT_3: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 398
+  severity: Normal
+  dateTime: 2017-12-02 06:40:33 
+  dateTimeOrder: 00015
+  description: "RISER1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 397
+  severity: Normal
+  dateTime: 2017-12-02 06:40:33 
+  dateTimeOrder: 00016
+  description: "FAN5_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 396
+  severity: Normal
+  dateTime: 2017-12-02 06:40:33 
+  dateTimeOrder: 00017
+  description: "FAN3_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 395
+  severity: Normal
+  dateTime: 2017-12-02 06:40:33 
+  dateTimeOrder: 00018
+  description: "FAN1_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 394
+  severity: Normal
+  dateTime: 2017-12-02 06:40:33 
+  dateTimeOrder: 00019
+  description: "SAS_MEZZ_PRENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 393
+  severity: Normal
+  dateTime: 2017-12-02 06:40:33 
+  dateTimeOrder: 00020
+  description: "HDD1_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 392
+  severity: Informational
+  dateTime: 2017-12-02 06:40:33 
+  dateTimeOrder: 00021
+  description: "LED_FAN_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 391
+  severity: Informational
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00022
+  description: "LED_FAN_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 390
+  severity: Informational
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00023
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 389
+  severity: Informational
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00024
+  description: "LED_PSU_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 388
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00025
+  description: "P2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 387
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00026
+  description: "RISER1_PRESENT_1: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 386
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00027
+  description: "RISER1_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 385
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00028
+  description: "RISER2_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 384
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00029
+  description: "RISER2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 383
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00030
+  description: "FAN6_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 382
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00031
+  description: "FAN4_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 381
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00032
+  description: "FAN2_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 380
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00033
+  description: "FRU_RAM POWER_ON_FAIL: Platform sensor for FRU_RAM, Predictive Failure deasserted"
+
+---
+  Id: 379
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00034
+  description: "MAIN_POWER_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 378
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00035
+  description: "RISER1_CNIC_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 377
+  severity: Normal
+  dateTime: 2017-12-02 06:40:32 
+  dateTimeOrder: 00036
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 376
+  severity: Informational
+  dateTime: 2017-12-02 05:17:15 
+  dateTimeOrder: 00037
+  description: "LED_HLTH_STATUS: Platform sensor, AMBER was deasserted"
+
+---
+  Id: 375
+  severity: Informational
+  dateTime: 2017-12-02 05:17:15 
+  dateTimeOrder: 00038
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 374
+  severity: Informational
+  dateTime: 2017-12-02 05:17:15 
+  dateTimeOrder: 00039
+  description: "LED_PSU_STATUS: Platform sensor, AMBER was deasserted"
+
+---
+  Id: 373
+  severity: Informational
+  dateTime: 2017-12-02 05:17:15 
+  dateTimeOrder: 00040
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 372
+  severity: Normal
+  dateTime: 2017-12-02 05:17:15 
+  dateTimeOrder: 00041
+  description: "PSU1 PSU1_STATUS: Power Supply sensor for PSU1, Power Supply input lost (AC/DC) was deasserted"
+
+---
+  Id: 371
+  severity: Informational
+  dateTime: 2017-12-02 05:17:09 
+  dateTimeOrder: 00042
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 370
+  severity: Informational
+  dateTime: 2017-12-02 05:17:09 
+  dateTimeOrder: 00043
+  description: "LED_HLTH_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 369
+  severity: Informational
+  dateTime: 2017-12-02 05:17:08 
+  dateTimeOrder: 00044
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 368
+  severity: Informational
+  dateTime: 2017-12-02 05:17:08 
+  dateTimeOrder: 00045
+  description: "LED_PSU_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 367
+  severity: Critical
+  dateTime: 2017-12-02 05:17:08 
+  dateTimeOrder: 00046
+  description: "PSU1 PSU1_STATUS: Power Supply sensor for PSU1, Power Supply input lost (AC/DC) was asserted"
+
+---
+  Id: 366
+  severity: Normal
+  dateTime: 2015-02-23 09:15:25 
+  dateTimeOrder: 00047
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 365
+  severity: Normal
+  dateTime: 2015-02-23 09:15:22 
+  dateTimeOrder: 00048
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 364
+  severity: Normal
+  dateTime: 2015-02-23 09:14:07 
+  dateTimeOrder: 00049
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 363
+  severity: Normal
+  dateTime: 2015-02-23 09:13:59 
+  dateTimeOrder: 00050
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 362
+  severity: Normal
+  dateTime: 2015-02-23 09:13:38 
+  dateTimeOrder: 00051
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 361
+  severity: Normal
+  dateTime: 2015-02-21 07:04:42 
+  dateTimeOrder: 00052
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 360
+  severity: Normal
+  dateTime: 2015-02-21 07:04:39 
+  dateTimeOrder: 00053
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 359
+  severity: Normal
+  dateTime: 2015-02-21 07:03:24 
+  dateTimeOrder: 00054
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 358
+  severity: Normal
+  dateTime: 2015-02-21 07:03:23 
+  dateTimeOrder: 00055
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 357
+  severity: Normal
+  dateTime: 2015-02-21 07:03:02 
+  dateTimeOrder: 00056
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 356
+  severity: Normal
+  dateTime: 2015-02-21 06:54:05 
+  dateTimeOrder: 00057
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 355
+  severity: Normal
+  dateTime: 2015-02-21 06:54:03 
+  dateTimeOrder: 00058
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 354
+  severity: Normal
+  dateTime: 2015-02-21 06:52:48 
+  dateTimeOrder: 00059
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 353
+  severity: Normal
+  dateTime: 2015-02-21 06:52:47 
+  dateTimeOrder: 00060
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 352
+  severity: Normal
+  dateTime: 2015-02-21 06:52:27 
+  dateTimeOrder: 00061
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 351
+  severity: Normal
+  dateTime: 2015-02-20 17:27:03 
+  dateTimeOrder: 00062
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 350
+  severity: Normal
+  dateTime: 2015-02-20 17:27:00 
+  dateTimeOrder: 00063
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 349
+  severity: Normal
+  dateTime: 2015-02-20 17:25:24 
+  dateTimeOrder: 00064
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 348
+  severity: Normal
+  dateTime: 2015-02-20 16:18:13 
+  dateTimeOrder: 00065
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 347
+  severity: Normal
+  dateTime: 2015-02-20 16:18:11 
+  dateTimeOrder: 00066
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 346
+  severity: Normal
+  dateTime: 2015-02-20 16:16:56 
+  dateTimeOrder: 00067
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 345
+  severity: Normal
+  dateTime: 2015-02-20 11:00:29 
+  dateTimeOrder: 00068
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 344
+  severity: Normal
+  dateTime: 2015-02-20 11:00:09 
+  dateTimeOrder: 00069
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 343
+  severity: Normal
+  dateTime: 2014-11-12 04:45:19 
+  dateTimeOrder: 00070
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 342
+  severity: Normal
+  dateTime: 2014-11-12 04:45:15 
+  dateTimeOrder: 00071
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 341
+  severity: Normal
+  dateTime: 2014-11-12 04:43:43 
+  dateTimeOrder: 00072
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 340
+  severity: Normal
+  dateTime: 2014-11-12 02:43:22 
+  dateTimeOrder: 00073
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 339
+  severity: Normal
+  dateTime: 2014-11-12 02:43:02 
+  dateTimeOrder: 00074
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 338
+  severity: Normal
+  dateTime: 2014-11-06 10:09:51 
+  dateTimeOrder: 00075
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 337
+  severity: Normal
+  dateTime: 2014-11-06 10:09:48 
+  dateTimeOrder: 00076
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 336
+  severity: Normal
+  dateTime: 2014-11-06 10:03:24 
+  dateTimeOrder: 00077
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 335
+  severity: Normal
+  dateTime: 2014-11-06 10:03:25 
+  dateTimeOrder: 00078
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 334
+  severity: Normal
+  dateTime: 2014-11-06 10:03:04 
+  dateTimeOrder: 00079
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 333
+  severity: Normal
+  dateTime: 2014-11-06 09:41:41 
+  dateTimeOrder: 00080
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 332
+  severity: Normal
+  dateTime: 2014-11-06 09:41:38 
+  dateTimeOrder: 00081
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 331
+  severity: Normal
+  dateTime: 2014-11-06 09:39:59 
+  dateTimeOrder: 00082
+  description: "MAIN_POWER_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 330
+  severity: Normal
+  dateTime: 2014-11-06 09:39:53 
+  dateTimeOrder: 00083
+  description: "MAIN_POWER_PRS: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 329
+  severity: Normal
+  dateTime: 2014-11-06 09:39:51 
+  dateTimeOrder: 00084
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 328
+  severity: Normal
+  dateTime: 2014-11-06 09:39:50 
+  dateTimeOrder: 00085
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 327
+  severity: Normal
+  dateTime: 2014-11-06 09:39:31 
+  dateTimeOrder: 00086
+  description: "HDD2_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 326
+  severity: Normal
+  dateTime: 2014-11-06 09:39:31 
+  dateTimeOrder: 00087
+  description: "HDD1_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 325
+  severity: Normal
+  dateTime: 2014-11-06 09:39:30 
+  dateTimeOrder: 00088
+  description: "PSU2 PSU2_PWRGD: Power Supply sensor for PSU2, State Asserted"
+
+---
+  Id: 324
+  severity: Normal
+  dateTime: 2014-11-06 09:39:30 
+  dateTimeOrder: 00089
+  description: "PSU1 PSU1_PWRGD: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 323
+  severity: Normal
+  dateTime: 2014-11-06 09:39:26 
+  dateTimeOrder: 00090
+  description: "MAIN_POWER_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 322
+  severity: Informational
+  dateTime: 2014-11-06 09:04:13 
+  dateTimeOrder: 00091
+  description: "LED_HLTH_STATUS: Platform sensor, AMBER was deasserted"
+
+---
+  Id: 321
+  severity: Informational
+  dateTime: 2014-11-06 09:04:13 
+  dateTimeOrder: 00092
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 320
+  severity: Informational
+  dateTime: 2014-11-06 09:04:13 
+  dateTimeOrder: 00093
+  description: "LED_PSU_STATUS: Platform sensor, AMBER was deasserted"
+
+---
+  Id: 319
+  severity: Informational
+  dateTime: 2014-11-06 09:04:13 
+  dateTimeOrder: 00094
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 318
+  severity: Normal
+  dateTime: 2014-11-06 09:04:13 
+  dateTimeOrder: 00095
+  description: "PSU1 PSU1_STATUS: Power Supply sensor for PSU1, Power Supply input lost (AC/DC) was deasserted"
+
+---
+  Id: 317
+  severity: Normal
+  dateTime: 2014-11-06 09:04:10 
+  dateTimeOrder: 00096
+  description: "PS_RDNDNT_MODE: PS Redundancy sensor, Fully Redundant was asserted"
+
+---
+  Id: 316
+  severity: Informational
+  dateTime: 2014-11-06 09:04:07 
+  dateTimeOrder: 00097
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 315
+  severity: Informational
+  dateTime: 2014-11-06 09:04:07 
+  dateTimeOrder: 00098
+  description: "LED_HLTH_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 314
+  severity: Informational
+  dateTime: 2014-11-06 09:04:07 
+  dateTimeOrder: 00099
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 313
+  severity: Informational
+  dateTime: 2014-11-06 09:04:07 
+  dateTimeOrder: 00100
+  description: "LED_PSU_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 312
+  severity: Critical
+  dateTime: 2014-11-06 09:04:07 
+  dateTimeOrder: 00101
+  description: "PSU1 PSU1_STATUS: Power Supply sensor for PSU1, Power Supply input lost (AC/DC) was asserted"
+
+---
+  Id: 311
+  severity: Normal
+  dateTime: 2014-11-06 09:04:06 
+  dateTimeOrder: 00102
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 310
+  severity: Critical
+  dateTime: 2014-11-06 09:04:05 
+  dateTimeOrder: 00103
+  description: "PS_RDNDNT_MODE: PS Redundancy sensor, Redundancy Lost was asserted"
+
+---
+  Id: 309
+  severity: Normal
+  dateTime: 2014-11-06 09:04:01 
+  dateTimeOrder: 00104
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Deasserted"
+
+---
+  Id: 308
+  severity: Normal
+  dateTime: 2014-11-06 08:30:10 
+  dateTimeOrder: 00105
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 307
+  severity: Normal
+  dateTime: 2014-11-06 08:30:07 
+  dateTimeOrder: 00106
+  description: "PSU2 PSU2_AC_OK: Power Supply sensor for PSU2, State Asserted"
+
+---
+  Id: 306
+  severity: Normal
+  dateTime: 2014-11-06 08:30:05 
+  dateTimeOrder: 00107
+  description: "PSU1 PSU1_STATUS: Power Supply sensor for PSU1, Presence detected was asserted"
+
+---
+  Id: 305
+  severity: Normal
+  dateTime: 2014-11-06 08:30:02 
+  dateTimeOrder: 00108
+  description: "PS_RDNDNT_MODE: PS Redundancy sensor, Fully Redundant was asserted"
+
+---
+  Id: 304
+  severity: Normal
+  dateTime: 2014-11-06 08:30:02 
+  dateTimeOrder: 00109
+  description: "PSU2 PSU2_STATUS: Power Supply sensor for PSU2, Presence detected was asserted"
+
+---
+  Id: 303
+  severity: Informational
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00110
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 302
+  severity: Informational
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00111
+  description: "LED_HLTH_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 301
+  severity: Informational
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00112
+  description: "LED_TEMP_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 300
+  severity: Informational
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00113
+  description: "LED_TEMP_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 299
+  severity: Normal
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00114
+  description: "P1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 298
+  severity: Normal
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00115
+  description: "RISER2_CNIC_PRST: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 297
+  severity: Normal
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00116
+  description: "RISER1_PRESENT_3: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 296
+  severity: Normal
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00117
+  description: "RISER1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 295
+  severity: Normal
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00118
+  description: "FAN5_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 294
+  severity: Normal
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00119
+  description: "FAN3_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 293
+  severity: Normal
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00120
+  description: "FAN1_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 292
+  severity: Normal
+  dateTime: 2014-11-06 08:29:57 
+  dateTimeOrder: 00121
+  description: "SAS_MEZZ_PRENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 291
+  severity: Informational
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00122
+  description: "LED_FAN_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 290
+  severity: Informational
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00123
+  description: "LED_FAN_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 289
+  severity: Informational
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00124
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 288
+  severity: Informational
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00125
+  description: "LED_PSU_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 287
+  severity: Normal
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00126
+  description: "P2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 286
+  severity: Normal
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00127
+  description: "RISER1_PRESENT_1: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 285
+  severity: Normal
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00128
+  description: "RISER1_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 284
+  severity: Normal
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00129
+  description: "RISER2_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 283
+  severity: Normal
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00130
+  description: "RISER2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 282
+  severity: Normal
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00131
+  description: "FAN6_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 281
+  severity: Normal
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00132
+  description: "FAN4_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 280
+  severity: Normal
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00133
+  description: "FAN2_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 279
+  severity: Normal
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00134
+  description: "FRU_RAM POWER_ON_FAIL: Platform sensor for FRU_RAM, Predictive Failure deasserted"
+
+---
+  Id: 278
+  severity: Normal
+  dateTime: 2014-11-06 08:29:56 
+  dateTimeOrder: 00135
+  description: "RISER1_CNIC_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 277
+  severity: Normal
+  dateTime: 2014-08-21 02:07:50 
+  dateTimeOrder: 00136
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Deasserted"
+
+---
+  Id: 276
+  severity: Normal
+  dateTime: 2014-08-21 02:04:31 
+  dateTimeOrder: 00137
+  description: "MAIN_POWER_PRS: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 275
+  severity: Normal
+  dateTime: 2014-08-21 01:17:36 
+  dateTimeOrder: 00138
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 274
+  severity: Normal
+  dateTime: 2014-08-21 01:17:34 
+  dateTimeOrder: 00139
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 273
+  severity: Normal
+  dateTime: 2014-08-21 01:15:44 
+  dateTimeOrder: 00140
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 272
+  severity: Normal
+  dateTime: 2014-08-21 01:15:45 
+  dateTimeOrder: 00141
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 271
+  severity: Normal
+  dateTime: 2014-08-21 01:15:25 
+  dateTimeOrder: 00142
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 270
+  severity: Normal
+  dateTime: 2014-08-20 23:57:56 
+  dateTimeOrder: 00143
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 269
+  severity: Normal
+  dateTime: 2014-08-20 23:57:53 
+  dateTimeOrder: 00144
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 268
+  severity: Normal
+  dateTime: 2014-08-20 23:56:12 
+  dateTimeOrder: 00145
+  description: "MAIN_POWER_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 267
+  severity: Normal
+  dateTime: 2014-08-20 23:56:07 
+  dateTimeOrder: 00146
+  description: "MAIN_POWER_PRS: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 266
+  severity: Normal
+  dateTime: 2014-08-20 23:56:04 
+  dateTimeOrder: 00147
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 265
+  severity: Normal
+  dateTime: 2014-08-20 23:56:02 
+  dateTimeOrder: 00148
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 264
+  severity: Normal
+  dateTime: 2014-08-20 23:55:44 
+  dateTimeOrder: 00149
+  description: "HDD2_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 263
+  severity: Normal
+  dateTime: 2014-08-20 23:55:44 
+  dateTimeOrder: 00150
+  description: "HDD1_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 262
+  severity: Normal
+  dateTime: 2014-08-20 23:55:43 
+  dateTimeOrder: 00151
+  description: "PSU2 PSU2_PWRGD: Power Supply sensor for PSU2, State Deasserted"
+
+---
+  Id: 261
+  severity: Normal
+  dateTime: 2014-08-20 23:55:43 
+  dateTimeOrder: 00152
+  description: "PSU1 PSU1_PWRGD: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 260
+  severity: Normal
+  dateTime: 2014-08-20 23:55:38 
+  dateTimeOrder: 00153
+  description: "MAIN_POWER_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 259
+  severity: Normal
+  dateTime: 2014-08-20 22:48:37 
+  dateTimeOrder: 00154
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 258
+  severity: Normal
+  dateTime: 2014-08-20 22:48:33 
+  dateTimeOrder: 00155
+  description: "PSU2 PSU2_AC_OK: Power Supply sensor for PSU2, State Deasserted"
+
+---
+  Id: 257
+  severity: Normal
+  dateTime: 2014-08-20 22:48:32 
+  dateTimeOrder: 00156
+  description: "PSU1 PSU1_STATUS: Power Supply sensor for PSU1, Presence detected was asserted"
+
+---
+  Id: 256
+  severity: Critical
+  dateTime: 2014-08-20 22:48:29 
+  dateTimeOrder: 00157
+  description: "PS_RDNDNT_MODE: PS Redundancy sensor, Non-redundant was asserted"
+
+---
+  Id: 255
+  severity: Informational
+  dateTime: 2014-08-20 22:48:29 
+  dateTimeOrder: 00158
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 254
+  severity: Informational
+  dateTime: 2014-08-20 22:48:29 
+  dateTimeOrder: 00159
+  description: "LED_HLTH_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 253
+  severity: Informational
+  dateTime: 2014-08-20 22:48:29 
+  dateTimeOrder: 00160
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 252
+  severity: Informational
+  dateTime: 2014-08-20 22:48:29 
+  dateTimeOrder: 00161
+  description: "LED_PSU_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 251
+  severity: Critical
+  dateTime: 2014-08-20 22:48:29 
+  dateTimeOrder: 00162
+  description: "PSU2 PSU2_STATUS: Power Supply sensor for PSU2, Power Supply input lost (AC/DC) was asserted"
+
+---
+  Id: 250
+  severity: Normal
+  dateTime: 2014-08-20 22:48:29 
+  dateTimeOrder: 00163
+  description: "PSU2 PSU2_STATUS: Power Supply sensor for PSU2, Presence detected was asserted"
+
+---
+  Id: 249
+  severity: Informational
+  dateTime: 2014-08-20 22:48:25 
+  dateTimeOrder: 00164
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 248
+  severity: Informational
+  dateTime: 2014-08-20 22:48:25 
+  dateTimeOrder: 00165
+  description: "LED_HLTH_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 247
+  severity: Informational
+  dateTime: 2014-08-20 22:48:25 
+  dateTimeOrder: 00166
+  description: "LED_TEMP_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 246
+  severity: Informational
+  dateTime: 2014-08-20 22:48:25 
+  dateTimeOrder: 00167
+  description: "LED_TEMP_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 245
+  severity: Normal
+  dateTime: 2014-08-20 22:48:25 
+  dateTimeOrder: 00168
+  description: "P1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 244
+  severity: Normal
+  dateTime: 2014-08-20 22:48:25 
+  dateTimeOrder: 00169
+  description: "RISER2_CNIC_PRST: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 243
+  severity: Normal
+  dateTime: 2014-08-20 22:48:25 
+  dateTimeOrder: 00170
+  description: "RISER1_PRESENT_3: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 242
+  severity: Normal
+  dateTime: 2014-08-20 22:48:24 
+  dateTimeOrder: 00171
+  description: "RISER1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 241
+  severity: Normal
+  dateTime: 2014-08-20 22:48:24 
+  dateTimeOrder: 00172
+  description: "FAN5_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 240
+  severity: Normal
+  dateTime: 2014-08-20 22:48:24 
+  dateTimeOrder: 00173
+  description: "FAN3_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 239
+  severity: Normal
+  dateTime: 2014-08-20 22:48:24 
+  dateTimeOrder: 00174
+  description: "FAN1_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 238
+  severity: Normal
+  dateTime: 2014-08-20 22:48:24 
+  dateTimeOrder: 00175
+  description: "SAS_MEZZ_PRENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 237
+  severity: Informational
+  dateTime: 2014-08-20 22:48:22 
+  dateTimeOrder: 00176
+  description: "LED_FAN_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 236
+  severity: Informational
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00177
+  description: "LED_FAN_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 235
+  severity: Informational
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00178
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 234
+  severity: Informational
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00179
+  description: "LED_PSU_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 233
+  severity: Normal
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00180
+  description: "P2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 232
+  severity: Normal
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00181
+  description: "RISER1_PRESENT_1: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 231
+  severity: Normal
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00182
+  description: "RISER1_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 230
+  severity: Normal
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00183
+  description: "RISER2_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 229
+  severity: Normal
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00184
+  description: "RISER2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 228
+  severity: Normal
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00185
+  description: "FAN6_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 227
+  severity: Normal
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00186
+  description: "FAN4_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 226
+  severity: Normal
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00187
+  description: "FAN2_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 225
+  severity: Normal
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00188
+  description: "FRU_RAM POWER_ON_FAIL: Platform sensor for FRU_RAM, Predictive Failure deasserted"
+
+---
+  Id: 224
+  severity: Normal
+  dateTime: 2014-08-20 22:48:20 
+  dateTimeOrder: 00189
+  description: "RISER1_CNIC_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 223
+  severity: Normal
+  dateTime: 2014-08-20 09:07:37 
+  dateTimeOrder: 00190
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Deasserted"
+
+---
+  Id: 222
+  severity: Normal
+  dateTime: 2014-08-20 09:07:28 
+  dateTimeOrder: 00191
+  description: "MAIN_POWER_PRS: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 221
+  severity: Normal
+  dateTime: 2014-08-20 09:01:09 
+  dateTimeOrder: 00192
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 220
+  severity: Normal
+  dateTime: 2014-08-20 09:01:07 
+  dateTimeOrder: 00193
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 219
+  severity: Normal
+  dateTime: 2014-08-20 08:59:30 
+  dateTimeOrder: 00194
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 218
+  severity: Normal
+  dateTime: 2014-08-20 08:24:49 
+  dateTimeOrder: 00195
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 217
+  severity: Normal
+  dateTime: 2014-08-20 08:24:45 
+  dateTimeOrder: 00196
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 216
+  severity: Normal
+  dateTime: 2014-08-20 08:22:56 
+  dateTimeOrder: 00197
+  description: "MAIN_POWER_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 215
+  severity: Normal
+  dateTime: 2014-08-20 08:22:35 
+  dateTimeOrder: 00198
+  description: "MAIN_POWER_PRS: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 214
+  severity: Normal
+  dateTime: 2014-08-20 08:16:14 
+  dateTimeOrder: 00199
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 213
+  severity: Normal
+  dateTime: 2014-08-20 08:16:13 
+  dateTimeOrder: 00200
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 212
+  severity: Normal
+  dateTime: 2014-08-20 08:15:40 
+  dateTimeOrder: 00201
+  description: "MAIN_POWER_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 211
+  severity: Normal
+  dateTime: 2014-08-20 08:15:25 
+  dateTimeOrder: 00202
+  description: "MAIN_POWER_PRS: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 210
+  severity: Normal
+  dateTime: 2014-08-20 08:15:21 
+  dateTimeOrder: 00203
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 209
+  severity: Normal
+  dateTime: 2014-08-20 08:15:20 
+  dateTimeOrder: 00204
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 208
+  severity: Normal
+  dateTime: 2014-08-20 08:14:57 
+  dateTimeOrder: 00205
+  description: "HDD2_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 207
+  severity: Normal
+  dateTime: 2014-08-20 08:14:57 
+  dateTimeOrder: 00206
+  description: "HDD1_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 206
+  severity: Normal
+  dateTime: 2014-08-20 08:14:57 
+  dateTimeOrder: 00207
+  description: "PSU2 PSU2_PWRGD: Power Supply sensor for PSU2, State Deasserted"
+
+---
+  Id: 205
+  severity: Normal
+  dateTime: 2014-08-20 08:14:57 
+  dateTimeOrder: 00208
+  description: "PSU1 PSU1_PWRGD: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 204
+  severity: Normal
+  dateTime: 2014-08-20 08:14:52 
+  dateTimeOrder: 00209
+  description: "MAIN_POWER_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 203
+  severity: Normal
+  dateTime: 2014-08-20 08:14:34 
+  dateTimeOrder: 00210
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 202
+  severity: Normal
+  dateTime: 2014-08-20 08:14:30 
+  dateTimeOrder: 00211
+  description: "PSU2 PSU2_AC_OK: Power Supply sensor for PSU2, State Deasserted"
+
+---
+  Id: 201
+  severity: Normal
+  dateTime: 2014-08-20 08:14:29 
+  dateTimeOrder: 00212
+  description: "PSU1 PSU1_STATUS: Power Supply sensor for PSU1, Presence detected was asserted"
+
+---
+  Id: 200
+  severity: Informational
+  dateTime: 2014-08-20 08:14:26 
+  dateTimeOrder: 00213
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 199
+  severity: Informational
+  dateTime: 2014-08-20 08:14:26 
+  dateTimeOrder: 00214
+  description: "LED_HLTH_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 198
+  severity: Informational
+  dateTime: 2014-08-20 08:14:26 
+  dateTimeOrder: 00215
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 197
+  severity: Informational
+  dateTime: 2014-08-20 08:14:26 
+  dateTimeOrder: 00216
+  description: "LED_PSU_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 196
+  severity: Critical
+  dateTime: 2014-08-20 08:14:26 
+  dateTimeOrder: 00217
+  description: "PSU2 PSU2_STATUS: Power Supply sensor for PSU2, Power Supply input lost (AC/DC) was asserted"
+
+---
+  Id: 195
+  severity: Normal
+  dateTime: 2014-08-20 08:14:26 
+  dateTimeOrder: 00218
+  description: "PSU2 PSU2_STATUS: Power Supply sensor for PSU2, Presence detected was asserted"
+
+---
+  Id: 194
+  severity: Informational
+  dateTime: 2014-08-20 08:14:21 
+  dateTimeOrder: 00219
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 193
+  severity: Informational
+  dateTime: 2014-08-20 08:14:21 
+  dateTimeOrder: 00220
+  description: "LED_HLTH_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 192
+  severity: Informational
+  dateTime: 2014-08-20 08:14:21 
+  dateTimeOrder: 00221
+  description: "LED_TEMP_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 191
+  severity: Informational
+  dateTime: 2014-08-20 08:14:21 
+  dateTimeOrder: 00222
+  description: "LED_TEMP_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 190
+  severity: Normal
+  dateTime: 2014-08-20 08:14:21 
+  dateTimeOrder: 00223
+  description: "P1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 189
+  severity: Normal
+  dateTime: 2014-08-20 08:14:21 
+  dateTimeOrder: 00224
+  description: "RISER2_CNIC_PRST: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 188
+  severity: Normal
+  dateTime: 2014-08-20 08:14:21 
+  dateTimeOrder: 00225
+  description: "RISER1_PRESENT_3: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 187
+  severity: Normal
+  dateTime: 2014-08-20 08:14:21 
+  dateTimeOrder: 00226
+  description: "RISER1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 186
+  severity: Normal
+  dateTime: 2014-08-20 08:14:21 
+  dateTimeOrder: 00227
+  description: "FAN5_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 185
+  severity: Normal
+  dateTime: 2014-08-20 08:14:20 
+  dateTimeOrder: 00228
+  description: "FAN3_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 184
+  severity: Normal
+  dateTime: 2014-08-20 08:14:20 
+  dateTimeOrder: 00229
+  description: "FAN1_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 183
+  severity: Normal
+  dateTime: 2014-08-20 08:14:20 
+  dateTimeOrder: 00230
+  description: "SAS_MEZZ_PRENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 182
+  severity: Critical
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00231
+  description: "PS_RDNDNT_MODE: PS Redundancy sensor, Non-redundant was asserted"
+
+---
+  Id: 181
+  severity: Informational
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00232
+  description: "LED_FAN_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 180
+  severity: Informational
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00233
+  description: "LED_FAN_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 179
+  severity: Informational
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00234
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 178
+  severity: Informational
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00235
+  description: "LED_PSU_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 177
+  severity: Normal
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00236
+  description: "P2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 176
+  severity: Normal
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00237
+  description: "RISER1_PRESENT_1: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 175
+  severity: Normal
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00238
+  description: "RISER1_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 174
+  severity: Normal
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00239
+  description: "RISER2_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 173
+  severity: Normal
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00240
+  description: "RISER2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 172
+  severity: Normal
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00241
+  description: "FAN6_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 171
+  severity: Normal
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00242
+  description: "FAN4_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 170
+  severity: Normal
+  dateTime: 2014-08-20 08:14:19 
+  dateTimeOrder: 00243
+  description: "FAN2_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 169
+  severity: Normal
+  dateTime: 2014-08-20 08:13:58 
+  dateTimeOrder: 00244
+  description: "FRU_RAM POWER_ON_FAIL: Platform sensor for FRU_RAM, Predictive Failure deasserted"
+
+---
+  Id: 168
+  severity: Normal
+  dateTime: 2014-08-20 08:13:58 
+  dateTimeOrder: 00245
+  description: "RISER1_CNIC_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 167
+  severity: Normal
+  dateTime: 2014-08-20 08:07:43 
+  dateTimeOrder: 00246
+  description: "MAIN_POWER_PRS: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 166
+  severity: Informational
+  dateTime: 2014-08-20 08:05:04 
+  dateTimeOrder: 00247
+  description: "LED_HLTH_STATUS: Platform sensor, FAST BLINK event was deasserted"
+
+---
+  Id: 165
+  severity: Informational
+  dateTime: 2014-08-20 08:05:04 
+  dateTimeOrder: 00248
+  description: "LED_HLTH_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 164
+  severity: Informational
+  dateTime: 2014-08-20 08:02:09 
+  dateTimeOrder: 00249
+  description: "LED_HLTH_STATUS: Platform sensor, ON event was deasserted"
+
+---
+  Id: 163
+  severity: Informational
+  dateTime: 2014-08-20 08:02:09 
+  dateTimeOrder: 00250
+  description: "LED_HLTH_STATUS: Platform sensor, FAST BLINK event was asserted"
+
+---
+  Id: 162
+  severity: Normal
+  dateTime: 2014-08-20 07:44:08 
+  dateTimeOrder: 00251
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 161
+  severity: Normal
+  dateTime: 2014-08-20 07:44:08 
+  dateTimeOrder: 00252
+  description: "PSU1 PSU1_PWRGD: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 160
+  severity: Normal
+  dateTime: 2014-08-20 07:44:05 
+  dateTimeOrder: 00253
+  description: "PSU2 PSU2_AC_OK: Power Supply sensor for PSU2, State Deasserted"
+
+---
+  Id: 159
+  severity: Normal
+  dateTime: 2014-08-20 07:44:05 
+  dateTimeOrder: 00254
+  description: "PSU2 PSU2_PWRGD: Power Supply sensor for PSU2, State Deasserted"
+
+---
+  Id: 158
+  severity: Normal
+  dateTime: 2014-08-20 07:44:03 
+  dateTimeOrder: 00255
+  description: "PSU1 PSU1_STATUS: Power Supply sensor for PSU1, Presence detected was asserted"
+
+---
+  Id: 157
+  severity: Critical
+  dateTime: 2014-08-20 07:43:59 
+  dateTimeOrder: 00256
+  description: "PS_RDNDNT_MODE: PS Redundancy sensor, Non-redundant was asserted"
+
+---
+  Id: 156
+  severity: Informational
+  dateTime: 2014-08-20 07:43:59 
+  dateTimeOrder: 00257
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 155
+  severity: Informational
+  dateTime: 2014-08-20 07:43:59 
+  dateTimeOrder: 00258
+  description: "LED_HLTH_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 154
+  severity: Informational
+  dateTime: 2014-08-20 07:43:59 
+  dateTimeOrder: 00259
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 153
+  severity: Informational
+  dateTime: 2014-08-20 07:43:59 
+  dateTimeOrder: 00260
+  description: "LED_PSU_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 152
+  severity: Critical
+  dateTime: 2014-08-20 07:43:59 
+  dateTimeOrder: 00261
+  description: "PSU2 PSU2_STATUS: Power Supply sensor for PSU2, Power Supply input lost (AC/DC) was asserted"
+
+---
+  Id: 151
+  severity: Normal
+  dateTime: 2014-08-20 07:43:59 
+  dateTimeOrder: 00262
+  description: "PSU2 PSU2_STATUS: Power Supply sensor for PSU2, Presence detected was asserted"
+
+---
+  Id: 150
+  severity: Normal
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00263
+  description: "HDD2_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 149
+  severity: Informational
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00264
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 148
+  severity: Informational
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00265
+  description: "LED_HLTH_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 147
+  severity: Informational
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00266
+  description: "LED_TEMP_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 146
+  severity: Informational
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00267
+  description: "LED_TEMP_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 145
+  severity: Normal
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00268
+  description: "P1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 144
+  severity: Normal
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00269
+  description: "RISER2_CNIC_PRST: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 143
+  severity: Normal
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00270
+  description: "RISER1_PRESENT_3: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 142
+  severity: Normal
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00271
+  description: "RISER1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 141
+  severity: Normal
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00272
+  description: "FAN5_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 140
+  severity: Normal
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00273
+  description: "FAN3_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 139
+  severity: Normal
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00274
+  description: "FAN1_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 138
+  severity: Normal
+  dateTime: 2014-08-20 07:43:43 
+  dateTimeOrder: 00275
+  description: "SAS_MEZZ_PRENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 137
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00276
+  description: "HDD1_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 136
+  severity: Informational
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00277
+  description: "LED_FAN_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 135
+  severity: Informational
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00278
+  description: "LED_FAN_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 134
+  severity: Informational
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00279
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 133
+  severity: Informational
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00280
+  description: "LED_PSU_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 132
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00281
+  description: "P2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 131
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00282
+  description: "RISER1_PRESENT_1: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 130
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00283
+  description: "RISER1_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 129
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00284
+  description: "RISER2_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 128
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00285
+  description: "RISER2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 127
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00286
+  description: "FAN6_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 126
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00287
+  description: "FAN4_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 125
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00288
+  description: "FAN2_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 124
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00289
+  description: "FRU_RAM POWER_ON_FAIL: Platform sensor for FRU_RAM, Predictive Failure deasserted"
+
+---
+  Id: 123
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00290
+  description: "MAIN_POWER_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 122
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00291
+  description: "RISER1_CNIC_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 121
+  severity: Normal
+  dateTime: 2014-08-20 07:43:42 
+  dateTimeOrder: 00292
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 120
+  severity: Normal
+  dateTime: 2014-08-20 07:26:18 
+  dateTimeOrder: 00293
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 119
+  severity: Normal
+  dateTime: 2014-08-20 07:26:16 
+  dateTimeOrder: 00294
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 118
+  severity: Normal
+  dateTime: 2014-08-20 07:24:22 
+  dateTimeOrder: 00295
+  description: "MAIN_POWER_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 117
+  severity: Normal
+  dateTime: 2014-08-20 07:24:22 
+  dateTimeOrder: 00296
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 116
+  severity: Normal
+  dateTime: 2014-08-20 07:24:03 
+  dateTimeOrder: 00297
+  description: "MAIN_POWER_PRS: Presence sensor, Device Removed / Device Absent was asserted"
+
+---
+  Id: 115
+  severity: Normal
+  dateTime: 2014-08-20 07:14:26 
+  dateTimeOrder: 00298
+  description: "BIOS_POST_CMPLT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 114
+  severity: Normal
+  dateTime: 2014-08-20 07:14:24 
+  dateTimeOrder: 00299
+  description: "System Software event: System Event sensor, OEM System Boot Event was asserted"
+
+---
+  Id: 113
+  severity: Informational
+  dateTime: 2014-08-20 07:13:25 
+  dateTimeOrder: 00300
+  description: "P2_DIMM_H1_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 112
+  severity: Informational
+  dateTime: 2014-08-20 07:13:25 
+  dateTimeOrder: 00301
+  description: "P2_DIMM_F1_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 111
+  severity: Informational
+  dateTime: 2014-08-20 07:13:25 
+  dateTimeOrder: 00302
+  description: "P2_DIMM_E2_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 110
+  severity: Informational
+  dateTime: 2014-08-20 07:13:25 
+  dateTimeOrder: 00303
+  description: "P1_DIMM_D1_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 109
+  severity: Informational
+  dateTime: 2014-08-20 07:13:25 
+  dateTimeOrder: 00304
+  description: "P1_DIMM_B1_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 108
+  severity: Informational
+  dateTime: 2014-08-20 07:13:25 
+  dateTimeOrder: 00305
+  description: "P1_DIMM_A2_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 107
+  severity: Informational
+  dateTime: 2014-08-20 07:13:23 
+  dateTimeOrder: 00306
+  description: "P2_DIMM_G1_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 106
+  severity: Informational
+  dateTime: 2014-08-20 07:13:22 
+  dateTimeOrder: 00307
+  description: "P2_DIMM_F2_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 105
+  severity: Informational
+  dateTime: 2014-08-20 07:13:22 
+  dateTimeOrder: 00308
+  description: "P2_DIMM_E1_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 104
+  severity: Informational
+  dateTime: 2014-08-20 07:13:22 
+  dateTimeOrder: 00309
+  description: "P1_DIMM_C1_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 103
+  severity: Informational
+  dateTime: 2014-08-20 07:13:22 
+  dateTimeOrder: 00310
+  description: "P1_DIMM_B2_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 102
+  severity: Informational
+  dateTime: 2014-08-20 07:13:22 
+  dateTimeOrder: 00311
+  description: "P1_DIMM_A1_LED: Platform sensor, OFF event was asserted"
+
+---
+  Id: 101
+  severity: Normal
+  dateTime: 2014-08-20 07:12:35 
+  dateTimeOrder: 00312
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (second of pair) was asserted"
+
+---
+  Id: 100
+  severity: Normal
+  dateTime: 2014-08-20 07:12:34 
+  dateTimeOrder: 00313
+  description: "System Software event: System Event sensor, Timestamp Clock Synch (first of pair) was asserted"
+
+---
+  Id: 99
+  severity: Informational
+  dateTime: 2014-08-20 07:12:20 
+  dateTimeOrder: 00314
+  description: "P2_DIMM_H1_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 98
+  severity: Informational
+  dateTime: 2014-08-20 07:12:20 
+  dateTimeOrder: 00315
+  description: "P2_DIMM_H1_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 97
+  severity: Informational
+  dateTime: 2014-08-20 07:12:20 
+  dateTimeOrder: 00316
+  description: "P2_DIMM_G1_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 96
+  severity: Informational
+  dateTime: 2014-08-20 07:12:20 
+  dateTimeOrder: 00317
+  description: "P2_DIMM_G1_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 95
+  severity: Informational
+  dateTime: 2014-08-20 07:12:20 
+  dateTimeOrder: 00318
+  description: "P2_DIMM_F2_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 94
+  severity: Informational
+  dateTime: 2014-08-20 07:12:20 
+  dateTimeOrder: 00319
+  description: "P2_DIMM_F2_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 93
+  severity: Informational
+  dateTime: 2014-08-20 07:12:20 
+  dateTimeOrder: 00320
+  description: "P2_DIMM_F1_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 92
+  severity: Informational
+  dateTime: 2014-08-20 07:12:20 
+  dateTimeOrder: 00321
+  description: "P2_DIMM_F1_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 91
+  severity: Informational
+  dateTime: 2014-08-20 07:12:20 
+  dateTimeOrder: 00322
+  description: "P2_DIMM_E2_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 90
+  severity: Informational
+  dateTime: 2014-08-20 07:12:20 
+  dateTimeOrder: 00323
+  description: "P2_DIMM_E2_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 89
+  severity: Informational
+  dateTime: 2014-08-20 07:12:20 
+  dateTimeOrder: 00324
+  description: "P2_DIMM_E1_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 88
+  severity: Informational
+  dateTime: 2014-08-20 07:12:19 
+  dateTimeOrder: 00325
+  description: "P2_DIMM_E1_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 87
+  severity: Informational
+  dateTime: 2014-08-20 07:12:19 
+  dateTimeOrder: 00326
+  description: "P1_DIMM_D1_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 86
+  severity: Informational
+  dateTime: 2014-08-20 07:12:19 
+  dateTimeOrder: 00327
+  description: "P1_DIMM_D1_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 85
+  severity: Informational
+  dateTime: 2014-08-20 07:12:17 
+  dateTimeOrder: 00328
+  description: "P1_DIMM_C1_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 84
+  severity: Informational
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00329
+  description: "P1_DIMM_C1_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 83
+  severity: Informational
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00330
+  description: "P1_DIMM_B2_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 82
+  severity: Informational
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00331
+  description: "P1_DIMM_B2_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 81
+  severity: Informational
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00332
+  description: "P1_DIMM_B1_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 80
+  severity: Informational
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00333
+  description: "P1_DIMM_B1_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 79
+  severity: Informational
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00334
+  description: "P1_DIMM_A2_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 78
+  severity: Informational
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00335
+  description: "P1_DIMM_A2_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 77
+  severity: Informational
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00336
+  description: "P1_DIMM_A1_LED: Platform sensor, AMBER was asserted"
+
+---
+  Id: 76
+  severity: Informational
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00337
+  description: "P1_DIMM_A1_LED: Platform sensor, ON event was asserted"
+
+---
+  Id: 75
+  severity: Normal
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00338
+  description: "HDD2_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 74
+  severity: Normal
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00339
+  description: "HDD1_STATUS: Drive Slot sensor, Drive Presence was asserted"
+
+---
+  Id: 73
+  severity: Normal
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00340
+  description: "PSU2 PSU2_PWRGD: Power Supply sensor for PSU2, State Deasserted"
+
+---
+  Id: 72
+  severity: Normal
+  dateTime: 2014-08-20 07:12:15 
+  dateTimeOrder: 00341
+  description: "PSU1 PSU1_PWRGD: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 71
+  severity: Normal
+  dateTime: 2014-08-20 07:12:10 
+  dateTimeOrder: 00342
+  description: "MAIN_POWER_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 70
+  severity: Normal
+  dateTime: 2014-08-20 07:00:47 
+  dateTimeOrder: 00343
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 69
+  severity: Normal
+  dateTime: 2014-08-20 07:00:43 
+  dateTimeOrder: 00344
+  description: "PSU2 PSU2_AC_OK: Power Supply sensor for PSU2, State Deasserted"
+
+---
+  Id: 68
+  severity: Normal
+  dateTime: 2014-08-20 07:00:42 
+  dateTimeOrder: 00345
+  description: "PSU1 PSU1_STATUS: Power Supply sensor for PSU1, Presence detected was asserted"
+
+---
+  Id: 67
+  severity: Critical
+  dateTime: 2014-08-20 07:00:39 
+  dateTimeOrder: 00346
+  description: "PS_RDNDNT_MODE: PS Redundancy sensor, Non-redundant was asserted"
+
+---
+  Id: 66
+  severity: Informational
+  dateTime: 2014-08-20 07:00:39 
+  dateTimeOrder: 00347
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 65
+  severity: Informational
+  dateTime: 2014-08-20 07:00:39 
+  dateTimeOrder: 00348
+  description: "LED_HLTH_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 64
+  severity: Informational
+  dateTime: 2014-08-20 07:00:39 
+  dateTimeOrder: 00349
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was deasserted"
+
+---
+  Id: 63
+  severity: Informational
+  dateTime: 2014-08-20 07:00:39 
+  dateTimeOrder: 00350
+  description: "LED_PSU_STATUS: Platform sensor, AMBER was asserted"
+
+---
+  Id: 62
+  severity: Critical
+  dateTime: 2014-08-20 07:00:39 
+  dateTimeOrder: 00351
+  description: "PSU2 PSU2_STATUS: Power Supply sensor for PSU2, Power Supply input lost (AC/DC) was asserted"
+
+---
+  Id: 61
+  severity: Normal
+  dateTime: 2014-08-20 07:00:39 
+  dateTimeOrder: 00352
+  description: "PSU2 PSU2_STATUS: Power Supply sensor for PSU2, Presence detected was asserted"
+
+---
+  Id: 60
+  severity: Informational
+  dateTime: 2014-08-20 07:00:36 
+  dateTimeOrder: 00353
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 59
+  severity: Informational
+  dateTime: 2014-08-20 07:00:36 
+  dateTimeOrder: 00354
+  description: "LED_HLTH_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 58
+  severity: Informational
+  dateTime: 2014-08-20 07:00:36 
+  dateTimeOrder: 00355
+  description: "LED_TEMP_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 57
+  severity: Informational
+  dateTime: 2014-08-20 07:00:36 
+  dateTimeOrder: 00356
+  description: "LED_TEMP_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 56
+  severity: Normal
+  dateTime: 2014-08-20 07:00:36 
+  dateTimeOrder: 00357
+  description: "P1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 55
+  severity: Normal
+  dateTime: 2014-08-20 07:00:19 
+  dateTimeOrder: 00358
+  description: "RISER2_CNIC_PRST: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 54
+  severity: Normal
+  dateTime: 2014-08-20 07:00:17 
+  dateTimeOrder: 00359
+  description: "RISER1_PRESENT_3: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 53
+  severity: Normal
+  dateTime: 2014-08-20 07:00:17 
+  dateTimeOrder: 00360
+  description: "RISER1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 52
+  severity: Normal
+  dateTime: 2014-08-20 07:00:13 
+  dateTimeOrder: 00361
+  description: "FAN5_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 51
+  severity: Normal
+  dateTime: 2014-08-20 07:00:12 
+  dateTimeOrder: 00362
+  description: "FAN3_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 50
+  severity: Normal
+  dateTime: 2014-08-20 07:00:08 
+  dateTimeOrder: 00363
+  description: "FAN1_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 49
+  severity: Normal
+  dateTime: 2014-08-20 07:00:08 
+  dateTimeOrder: 00364
+  description: "SAS_MEZZ_PRENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 48
+  severity: Informational
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00365
+  description: "LED_FAN_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 47
+  severity: Informational
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00366
+  description: "LED_FAN_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 46
+  severity: Informational
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00367
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 45
+  severity: Informational
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00368
+  description: "LED_PSU_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 44
+  severity: Normal
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00369
+  description: "P2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 43
+  severity: Normal
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00370
+  description: "RISER1_PRESENT_1: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 42
+  severity: Normal
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00371
+  description: "RISER1_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 41
+  severity: Normal
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00372
+  description: "RISER2_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 40
+  severity: Normal
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00373
+  description: "RISER2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 39
+  severity: Normal
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00374
+  description: "FAN6_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 38
+  severity: Normal
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00375
+  description: "FAN4_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 37
+  severity: Normal
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00376
+  description: "FAN2_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 36
+  severity: Normal
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00377
+  description: "FRU_RAM POWER_ON_FAIL: Platform sensor for FRU_RAM, Predictive Failure deasserted"
+
+---
+  Id: 35
+  severity: Normal
+  dateTime: 2014-08-20 07:00:07 
+  dateTimeOrder: 00378
+  description: "RISER1_CNIC_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 34
+  severity: Normal
+  dateTime: 2014-06-24 07:02:11 
+  dateTimeOrder: 00379
+  description: "PSU2 PSU2_AC_OK: Power Supply sensor for PSU2, State Deasserted"
+
+---
+  Id: 33
+  severity: Normal
+  dateTime: 2014-06-24 07:02:11 
+  dateTimeOrder: 00380
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Deasserted"
+
+---
+  Id: 32
+  severity: Normal
+  dateTime: 2014-06-24 06:59:33 
+  dateTimeOrder: 00381
+  description: "PSU1 PSU1_AC_OK: Power Supply sensor for PSU1, State Asserted"
+
+---
+  Id: 31
+  severity: Normal
+  dateTime: 2014-06-24 06:59:29 
+  dateTimeOrder: 00382
+  description: "PSU2 PSU2_AC_OK: Power Supply sensor for PSU2, State Asserted"
+
+---
+  Id: 30
+  severity: Normal
+  dateTime: 2014-06-24 06:59:28 
+  dateTimeOrder: 00383
+  description: "PSU1 PSU1_STATUS: Power Supply sensor for PSU1, Presence detected was asserted"
+
+---
+  Id: 29
+  severity: Normal
+  dateTime: 2014-06-24 06:59:25 
+  dateTimeOrder: 00384
+  description: "PS_RDNDNT_MODE: PS Redundancy sensor, Fully Redundant was asserted"
+
+---
+  Id: 28
+  severity: Normal
+  dateTime: 2014-06-24 06:59:25 
+  dateTimeOrder: 00385
+  description: "PSU2 PSU2_STATUS: Power Supply sensor for PSU2, Presence detected was asserted"
+
+---
+  Id: 27
+  severity: Informational
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00386
+  description: "LED_HLTH_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 26
+  severity: Informational
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00387
+  description: "LED_HLTH_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 25
+  severity: Informational
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00388
+  description: "LED_TEMP_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 24
+  severity: Informational
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00389
+  description: "LED_TEMP_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 23
+  severity: Normal
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00390
+  description: "P1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 22
+  severity: Normal
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00391
+  description: "RISER2_CNIC_PRST: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 21
+  severity: Normal
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00392
+  description: "RISER1_PRESENT_3: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 20
+  severity: Normal
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00393
+  description: "RISER1_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 19
+  severity: Normal
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00394
+  description: "FAN5_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 18
+  severity: Normal
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00395
+  description: "FAN3_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 17
+  severity: Normal
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00396
+  description: "FAN1_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 16
+  severity: Normal
+  dateTime: 2014-06-24 06:59:21 
+  dateTimeOrder: 00397
+  description: "SAS_MEZZ_PRENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 15
+  severity: Informational
+  dateTime: 2014-06-24 06:59:18 
+  dateTimeOrder: 00398
+  description: "LED_FAN_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 14
+  severity: Informational
+  dateTime: 2014-06-24 06:59:14 
+  dateTimeOrder: 00399
+  description: "LED_FAN_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 13
+  severity: Informational
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00400
+  description: "LED_PSU_STATUS: Platform sensor, GREEN was asserted"
+
+---
+  Id: 12
+  severity: Informational
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00401
+  description: "LED_PSU_STATUS: Platform sensor, ON event was asserted"
+
+---
+  Id: 11
+  severity: Normal
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00402
+  description: "P2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 10
+  severity: Normal
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00403
+  description: "RISER1_PRESENT_1: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 9
+  severity: Normal
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00404
+  description: "RISER1_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 8
+  severity: Normal
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00405
+  description: "RISER2_PRESENT_2: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 7
+  severity: Normal
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00406
+  description: "RISER2_PRESENT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 6
+  severity: Normal
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00407
+  description: "FAN6_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 5
+  severity: Normal
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00408
+  description: "FAN4_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 4
+  severity: Normal
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00409
+  description: "FAN2_PRSNT: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 3
+  severity: Normal
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00410
+  description: "FRU_RAM POWER_ON_FAIL: Platform sensor for FRU_RAM, Predictive Failure deasserted"
+
+---
+  Id: 2
+  severity: Normal
+  dateTime: 2014-06-24 06:59:12 
+  dateTimeOrder: 00411
+  description: "RISER1_CNIC_PRS: Presence sensor, Device Inserted / Device Present was asserted"
+
+---
+  Id: 1
+  severity: Normal
+  dateTime: 2014-06-24 06:56:59 
+  dateTimeOrder: 00412
+  description: "FRU_RAM SEL_FULLNESS: Event Log sensor for FRU_RAM, Log Area Reset/Cleared was asserted"
+
+
+---
+status: ok
+
+...

@@ -1,0 +1,7 @@
+#! /bin/bash
+
+export product_name=`/usr/local/bin/ShowFru -m | grep "Board Product Name" | \
+			        sed "s/Board Product Name\s\+:\s\+\[//" | sed "s/\]//" | \
+			        sed "s/\s\+//g"`;
+
+exec /opt/flash/cisco/bin/ciscoNET -d 10 -p 10 -l 0;

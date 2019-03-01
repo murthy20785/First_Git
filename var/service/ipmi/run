@@ -1,0 +1,18 @@
+#!/bin/bash
+# Required for IPMI To run.
+/sbin/showversion > /tmp/showversion
+if [ ! -e /usr/ipmi ]; then
+    if [ -e /opt/cisco/bin/ipmi ]; then
+	ln -s /opt/cisco/bin/ipmi /usr/ipmi
+    else
+	cp -a /opt/flash/cisco/bin/ipmi /usr/
+    fi
+fi
+cd /usr/ipmi
+# LD_PRELOAD libforkexecproxy.so applies only to rack servers
+if [ -e /lib/libforkexecproxy.so ]; then
+    export LD_PRELOAD=/lib/libforkexecproxy.so
+fi
+export PATH=.:$PATH
+exec avct_ipmi 1>/dev/null 2>/dev/null
+

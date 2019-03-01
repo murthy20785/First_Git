@@ -1,0 +1,2 @@
+#!/bin/bash
+exec /usr/local/bin/pof_monitord monitor

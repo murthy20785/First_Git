@@ -1,0 +1,9 @@
+#!/bin/sh
+logger -p user.info "xapid start"
+spids=`pidof xapiserver`
+rc=$?
+if [ $rc -eq 0 ]; then
+logger -p user.err "found stale xapiserver pids $spids"
+killall -9 xapiserver
+fi
+exec /usr/local/bin/xapiserver.sh &> /dev/null

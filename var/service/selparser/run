@@ -1,0 +1,2 @@
+#!/bin/bash
+exec /usr/local/bin/selparser -d> /dev/null 2> /dev/null

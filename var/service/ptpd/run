@@ -1,0 +1,9 @@
+#!/bin/bash
+INTERFACE=`cat /var/ifmaster`
+while [ "" == "$INTERFACE" ];
+do
+	sleep 1
+	INTERFACE=`cat /var/ifmaster`
+done
+exec ptpd -g -c -b $INTERFACE
+

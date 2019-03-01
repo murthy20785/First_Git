@@ -1,0 +1,1000 @@
+  1 slfe.c:702 sl_init_lib: probing ctlr SLOT-MEZZ at 0x0239
+  1 slfe.c:702 sl_init_lib: probing ctlr SLOT-5 at 0x0230
+  1 slfe.c:702 sl_init_lib: probing ctlr SLOT-4 at 0x0229
+  1 slfe.c:702 sl_init_lib: probing ctlr SLOT-3 at 0x0219
+  1 slfe.c:702 sl_init_lib: probing ctlr SLOT-2 at 0x0210
+  1 slfe.c:702 sl_init_lib: probing ctlr SLOT-1 at 0x0209
+ 32 slfe.c:725 sl_init_lib: probe found ctlr at 0x0239, SLOT-MEZZ
+ 32 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+ 32 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+ 32 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+ 33 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+ 33 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+ 33 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+ 33 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+ 33 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+ 33 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+ 33 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+ 33 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+ 33 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+ 33 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+ 34 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+ 34 phys.c:470 enqueue_physdrive_work: ==> Enqueuing modified deviceID 0x3
+ 34 phys.c:470 enqueue_physdrive_work: ==> Enqueuing modified deviceID 0x4
+ 34 virt.c:360 enqueue_virtdrive: ==> enqueue ctlr_index 0, target_ID 0
+ 34 virt.c:308 enqueue_virtdrive_work: ==> (ctlr 0): Enqueuing new VD, targetID 0
+ 34 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x3
+ 34 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+ 34 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+ 34 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x4
+ 34 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+ 34 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+ 34 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_INFO
+ 34 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_INFO rc 0 (Command was executed successfully)
+ 34 ctlr.c:200 raid_counter_callback: storaged RAID subsystem is ready!
+ 34 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_EVENT_GET_INFO
+ 35 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_EVENT_GET_INFO rc 0 (Command was executed successfully)
+ 35 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_EVENT_COUNT
+ 36 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_EVENT_COUNT rc 0 (Command was executed successfully)
+ 36 log_cache.c:81 logfile_entry_count: stat(/var/log/eventlog-SLOT-MEZZ) failed: No such file or directory
+ 36 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_EVENT_GET
+ 37 oob.c:39 oob_callback: objtype PD_INFO
+ 37 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_EVENT_GET rc 0 (Command was executed successfully)
+ 37 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x3
+ 37 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+ 37 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+ 37 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x4
+ 37 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+ 38 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+ 38 slfe.c:602 do_cmd: ---> Calling SL_CONFIG_CMD_TYPE/SL_GET_ARRAY_INFO
+ 39 slfe.c:606 do_cmd: ===> SL_CONFIG_CMD_TYPE/SL_GET_ARRAY_INFO rc 0 (Command was executed successfully)
+ 39 virt.c:1962 compute_remaining_space:   Setting VD 0's largest hole to '0 MB', ldCount 1
+ 39 datafile.c:97 rewrite_data_file
+ 54 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+ 54 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+ 54 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+ 54 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+ 54 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+ 54 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+ 54 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+ 54 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+ 54 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+ 55 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+ 55 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+ 55 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+ 55 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+ 55 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+ 55 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 3
+ 55 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+ 55 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+ 55 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 4
+ 55 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+ 55 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+ 75 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+ 75 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+ 75 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+ 75 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+ 75 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+ 75 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+ 75 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+ 75 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+ 75 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+ 76 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+ 76 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+ 76 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+ 76 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+ 76 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+ 96 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+ 96 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+ 96 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+ 96 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+ 96 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+ 96 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+ 96 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+ 96 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+ 96 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+ 97 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+ 97 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+ 97 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+ 97 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+ 97 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+ 97 slfe.c:602 do_cmd: ---> Calling SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS
+ 97 slfe.c:606 do_cmd: ===> SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS rc 0 (Command was executed successfully)
+117 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+117 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+117 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+117 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+117 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+117 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+117 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+117 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+117 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+118 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+118 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+118 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+118 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+118 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+138 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+138 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+138 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+138 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+138 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+138 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+138 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+138 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+138 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+139 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+139 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+139 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+139 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+139 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+159 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+159 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+159 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+159 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+159 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+160 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+160 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+160 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+160 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+160 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+160 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+160 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+160 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+160 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+160 virt.c:336 enqueue_virtdrive_work:   (ctlr 0): target_ID 0 HAS changed (ra false, vd_changed false, es 126)
+160 virt.c:360 enqueue_virtdrive: ==> enqueue ctlr_index 0, target_ID 0
+160 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_INFO
+160 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_INFO rc 0 (Command was executed successfully)
+160 datafile.c:97 rewrite_data_file
+180 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+180 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+180 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+180 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+180 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+181 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+181 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+181 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+181 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+181 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+181 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+181 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+181 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+181 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+201 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+201 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+201 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+201 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+201 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+201 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+201 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+201 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+201 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+202 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+202 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+202 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+202 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+202 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+222 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+222 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+222 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+222 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+222 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+222 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+222 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+222 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+222 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+223 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+223 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+223 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+223 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+223 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+226 oob.c:39 oob_callback: objtype PD_INFO
+226 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x3
+226 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+226 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+226 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x4
+226 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+226 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+226 datafile.c:97 rewrite_data_file
+243 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+243 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+243 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+243 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+243 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+243 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+243 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+243 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+243 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+244 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+244 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+244 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+244 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+244 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+244 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 3
+244 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+244 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+244 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 4
+244 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+244 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+264 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+264 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+264 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+264 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+264 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+264 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+264 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+264 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+264 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+265 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+265 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+265 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+265 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+265 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+285 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+285 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+285 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+285 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+285 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+285 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+285 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+285 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+285 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+286 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+286 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+286 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+286 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+286 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+286 slfe.c:602 do_cmd: ---> Calling SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS
+286 slfe.c:606 do_cmd: ===> SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS rc 0 (Command was executed successfully)
+286 virt.c:336 enqueue_virtdrive_work:   (ctlr 0): target_ID 0 HAS changed (ra false, vd_changed false, es 125)
+286 virt.c:360 enqueue_virtdrive: ==> enqueue ctlr_index 0, target_ID 0
+286 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_INFO
+286 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_INFO rc 0 (Command was executed successfully)
+286 datafile.c:97 rewrite_data_file
+306 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+306 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+306 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+306 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+306 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+306 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+306 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+306 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+306 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+307 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+307 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+307 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+307 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+307 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+327 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+327 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+327 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+327 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+327 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+327 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+327 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+327 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+327 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+328 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+328 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+328 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+328 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+328 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+348 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+348 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+348 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+348 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+348 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+348 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+348 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+348 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+348 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+349 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+349 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+349 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+349 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+349 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+369 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+369 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+369 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+369 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+369 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+369 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+369 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+369 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+369 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+370 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+370 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+370 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+370 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+370 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+390 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+390 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+390 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+390 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+390 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+390 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+390 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+390 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+390 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+391 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+391 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+391 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+391 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+391 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+411 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+411 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+411 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+411 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+411 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+411 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+411 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+411 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+411 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+412 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+412 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+412 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+412 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+412 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+412 virt.c:336 enqueue_virtdrive_work:   (ctlr 0): target_ID 0 HAS changed (ra false, vd_changed false, es 125)
+412 virt.c:360 enqueue_virtdrive: ==> enqueue ctlr_index 0, target_ID 0
+412 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_INFO
+412 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_INFO rc 0 (Command was executed successfully)
+412 datafile.c:97 rewrite_data_file
+432 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+432 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+432 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+432 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+432 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+432 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+432 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+432 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+432 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+433 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+433 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+433 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+433 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+433 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+433 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 3
+433 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+433 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+433 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 4
+433 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+433 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+453 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+453 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+453 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+453 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+453 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+453 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+453 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+453 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+453 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+454 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+454 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+454 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+454 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+454 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+474 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+474 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+474 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+474 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+474 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+474 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+474 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+474 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+474 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+475 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+475 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+475 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+475 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+475 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+475 slfe.c:602 do_cmd: ---> Calling SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS
+475 slfe.c:606 do_cmd: ===> SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS rc 0 (Command was executed successfully)
+495 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+495 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+495 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+495 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+495 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+495 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+495 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+495 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+495 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+496 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+496 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+496 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+496 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+496 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+516 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+516 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+516 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+516 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+516 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+516 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+516 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+516 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+516 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+517 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+517 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+517 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+517 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+517 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+528 oob.c:39 oob_callback: objtype PD_INFO
+528 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x3
+528 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+528 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+528 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x4
+528 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+528 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+528 datafile.c:97 rewrite_data_file
+537 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+537 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+537 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+537 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+537 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+537 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+537 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+537 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+537 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+538 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+538 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+538 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+538 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+538 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+538 virt.c:336 enqueue_virtdrive_work:   (ctlr 0): target_ID 0 HAS changed (ra false, vd_changed false, es 125)
+538 virt.c:360 enqueue_virtdrive: ==> enqueue ctlr_index 0, target_ID 0
+538 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_INFO
+538 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_INFO rc 0 (Command was executed successfully)
+538 datafile.c:97 rewrite_data_file
+558 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+558 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+558 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+558 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+558 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+558 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+558 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+559 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+559 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+559 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+559 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+559 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+559 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+559 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+579 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+579 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+579 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+579 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+579 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+580 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+580 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+580 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+580 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+580 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+580 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+580 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+580 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+580 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+600 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+600 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+600 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+600 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+600 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+600 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+600 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+601 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+601 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+601 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+601 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+601 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+601 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+601 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+621 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+621 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+621 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+621 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+621 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+621 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+621 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+621 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+621 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+622 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+622 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+622 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+622 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+622 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+622 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 3
+622 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+622 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+622 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 4
+622 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+622 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+642 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+642 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+642 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+642 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+642 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+642 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+642 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+642 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+642 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+643 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+643 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+643 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+643 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+643 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+663 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+663 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+663 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+663 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+663 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+663 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+663 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+663 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+663 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+664 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+664 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+664 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+664 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+664 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+664 slfe.c:602 do_cmd: ---> Calling SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS
+664 slfe.c:606 do_cmd: ===> SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS rc 0 (Command was executed successfully)
+664 virt.c:336 enqueue_virtdrive_work:   (ctlr 0): target_ID 0 HAS changed (ra false, vd_changed false, es 125)
+664 virt.c:360 enqueue_virtdrive: ==> enqueue ctlr_index 0, target_ID 0
+664 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_INFO
+664 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_INFO rc 0 (Command was executed successfully)
+664 datafile.c:97 rewrite_data_file
+684 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+684 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+684 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+684 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+684 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+684 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+684 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+684 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+684 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+685 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+685 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+685 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+685 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+685 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+705 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+705 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+705 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+705 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+705 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+705 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+705 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+705 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+705 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+706 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+706 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+706 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+706 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+706 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+726 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+726 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+726 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+726 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+726 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+726 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+726 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+726 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+726 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+727 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+727 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+727 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+727 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+727 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+747 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+747 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+747 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+747 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+747 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+747 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+747 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+748 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+748 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+748 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+748 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+748 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+748 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+748 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+768 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+768 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+768 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+768 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+768 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+769 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+769 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+769 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+769 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+769 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+769 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+769 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+769 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+769 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+789 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+789 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+789 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+789 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+789 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+789 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+789 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+789 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+789 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+790 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+790 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+790 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+790 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+790 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+790 virt.c:336 enqueue_virtdrive_work:   (ctlr 0): target_ID 0 HAS changed (ra false, vd_changed false, es 125)
+790 virt.c:360 enqueue_virtdrive: ==> enqueue ctlr_index 0, target_ID 0
+790 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_INFO
+790 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_INFO rc 0 (Command was executed successfully)
+790 datafile.c:97 rewrite_data_file
+810 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+810 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+810 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+810 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+810 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+810 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+810 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+810 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+810 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+811 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+811 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+811 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+811 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+811 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+811 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 3
+811 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+811 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+811 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 4
+811 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+811 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+824 oob.c:39 oob_callback: objtype PD_INFO
+824 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x3
+824 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+824 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+824 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x4
+824 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+825 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+825 datafile.c:97 rewrite_data_file
+831 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+831 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+831 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+831 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+831 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+831 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+831 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+831 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+831 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+832 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+832 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+832 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+832 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+832 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+852 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+852 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+852 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+852 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+852 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+852 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+852 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+852 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+852 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+853 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+853 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+853 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+853 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+853 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+853 slfe.c:602 do_cmd: ---> Calling SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS
+853 slfe.c:606 do_cmd: ===> SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS rc 0 (Command was executed successfully)
+873 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+873 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+873 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+873 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+873 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+873 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+873 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+873 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+873 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+874 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+874 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+874 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+874 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+874 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+894 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+894 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+894 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+894 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+894 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+894 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+894 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+894 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+894 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+895 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+895 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+895 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+895 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+895 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+915 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+915 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+915 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+915 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+915 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+915 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+915 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+915 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+915 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+916 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+916 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+916 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+916 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+916 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+916 virt.c:336 enqueue_virtdrive_work:   (ctlr 0): target_ID 0 HAS changed (ra false, vd_changed false, es 126)
+916 virt.c:360 enqueue_virtdrive: ==> enqueue ctlr_index 0, target_ID 0
+916 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_INFO
+916 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_INFO rc 0 (Command was executed successfully)
+916 datafile.c:97 rewrite_data_file
+936 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+936 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+936 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+936 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+936 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+936 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+936 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+936 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+936 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+937 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+937 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+937 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+937 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+937 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+957 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+957 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+957 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+957 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+957 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+957 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+957 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+957 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+957 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+958 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+958 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+958 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+958 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+958 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+978 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+978 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+978 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+978 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+978 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+978 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+978 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+979 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+979 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+979 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+979 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+979 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+979 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+979 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+999 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+999 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+999 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+999 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+999 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+999 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+999 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+999 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+999 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1000 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1000 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1000 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1000 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1000 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1000 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 3
+1000 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+1000 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+1000 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 4
+1000 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+1000 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+1020 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1020 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1020 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1020 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1020 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1020 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1020 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1020 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1020 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1021 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1021 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1021 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1021 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1021 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1041 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1041 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1041 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1041 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1041 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1041 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1041 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1041 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1041 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1042 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1042 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1042 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1042 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1042 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1042 slfe.c:602 do_cmd: ---> Calling SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS
+1042 slfe.c:606 do_cmd: ===> SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS rc 0 (Command was executed successfully)
+1042 virt.c:336 enqueue_virtdrive_work:   (ctlr 0): target_ID 0 HAS changed (ra false, vd_changed false, es 126)
+1042 virt.c:360 enqueue_virtdrive: ==> enqueue ctlr_index 0, target_ID 0
+1042 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_INFO
+1042 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_INFO rc 0 (Command was executed successfully)
+1042 datafile.c:97 rewrite_data_file
+1062 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1062 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1062 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1062 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1062 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1062 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1062 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1062 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1062 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1063 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1063 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1063 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1063 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1063 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1083 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1083 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1083 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1083 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1083 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1083 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1083 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1083 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1083 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1084 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1084 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1084 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1084 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1084 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1104 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1104 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1104 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1104 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1104 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1104 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1104 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1104 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1104 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1105 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1105 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1105 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1105 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1105 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1125 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1125 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1125 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1125 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1125 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1125 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1125 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1125 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1125 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1126 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1126 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1126 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1126 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1126 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1126 oob.c:39 oob_callback: objtype PD_INFO
+1126 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x3
+1126 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+1126 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+1126 phys.c:649 pd_update_info: ===> PD_UPDATE_INFO, ctlr 0, device_ID 0x4
+1126 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_INFO
+1126 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_INFO rc 0 (Command was executed successfully)
+1126 datafile.c:97 rewrite_data_file
+1146 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1146 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1146 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1146 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1146 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1146 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1146 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1146 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1146 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1147 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1147 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1147 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1147 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1147 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1167 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1167 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1167 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1167 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1167 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1168 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1168 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1168 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1168 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1168 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1168 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1168 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1168 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1168 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1168 virt.c:336 enqueue_virtdrive_work:   (ctlr 0): target_ID 0 HAS changed (ra false, vd_changed false, es 126)
+1168 virt.c:360 enqueue_virtdrive: ==> enqueue ctlr_index 0, target_ID 0
+1168 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_INFO
+1168 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_INFO rc 0 (Command was executed successfully)
+1168 datafile.c:97 rewrite_data_file
+1188 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1188 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1188 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1188 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1188 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1188 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1188 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1189 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1189 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1189 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1189 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1189 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1189 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1189 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1189 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 3
+1189 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+1189 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+1189 phys.c:2811 update_pd_lrop: Update ctlr 0, device_ID 4
+1189 slfe.c:602 do_cmd: ---> Calling SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS
+1189 slfe.c:606 do_cmd: ===> SL_PD_CMD_TYPE/SL_GET_PD_PROGRESS rc 0 (Command was executed successfully)
+1209 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1209 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1209 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1209 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1209 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1209 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1209 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1209 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1209 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1210 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1210 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1210 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1210 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1210 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1230 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1230 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1230 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1230 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1230 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1230 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1230 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1230 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1230 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1231 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1231 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1231 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1231 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1231 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1231 slfe.c:602 do_cmd: ---> Calling SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS
+1231 slfe.c:606 do_cmd: ===> SL_LD_CMD_TYPE/SL_GET_LD_PROGRESS rc 0 (Command was executed successfully)
+1251 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1251 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1251 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET
+1251 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_MFG_GET rc 0 (Command was executed successfully)
+1251 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CFG_READ
+1251 slfe.c:668 do_dcmd: ===> MR_DCMD_CFG_READ rc 0 (Command was executed successfully)
+1251 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_PD_GET_LIST
+1251 slfe.c:668 do_dcmd: ===> MR_DCMD_PD_GET_LIST rc 0 (Command was executed successfully)
+1251 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_LD_GET_LIST
+1252 slfe.c:668 do_dcmd: ===> MR_DCMD_LD_GET_LIST rc 0 (Command was executed successfully)
+1252 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_DEFAULTS_GET
+1252 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_MFC_DEFAULTS_GET rc 0 (Command was executed successfully)
+1252 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_BIOS_DATA_GET
+1252 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_BIOS_DATA_GET rc 0 (Command was executed successfully)
+1272 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_GET_INFO
+1272 slfe.c:668 do_dcmd: ===> MR_DCMD_CTRL_GET_INFO rc 0 (Command was executed successfully)
+1272 slfe.c:666 do_dcmd: ---> Calling MR_DCMD_CTRL_MFC_MFG_GET

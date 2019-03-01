@@ -1,0 +1,241 @@
+CPU
+  id: 1
+  SocketDesignation: CPU1
+  ProcessorManufacturer: Intel(R) Corporation
+  ProcessorFamily: Xeon
+  ThreadCount: 20
+  SerialNumber: Not Specified
+  ProcessorVersion: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  CurrentSpeed: 2500
+  CoreCount: 10
+  CoreEnabled: 10
+  Status: Enabled
+  MaxSpeed: 4000
+  Signature: Type 0, Family 6, Model 62, Stepping 4 
+
+  id: 2
+  SocketDesignation: CPU2
+  ProcessorManufacturer: Intel(R) Corporation
+  ProcessorFamily: Xeon
+  ThreadCount: 20
+  SerialNumber: Not Specified
+  ProcessorVersion: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  CurrentSpeed: 2500
+  CoreCount: 10
+  CoreEnabled: 10
+  Status: Enabled
+  MaxSpeed: 4000
+  Signature: Type 0, Family 6, Model 62, Stepping 4 
+
+
+
+...
+Memory
+ MemorySpeed: 1600 MHz
+ TotalMemory: 196608 MB
+ EffectiveMemory: 196608 MB
+ RedundantMemory: 0 MB
+ FailedMemory: 0 MB
+ IgnoredMemory: 0 MB
+ NumOfIgnoredDimms: 0
+ NumOfFailedDimms: 0
+ MemoryRASPossible: Independent Mirroring Lockstep 
+ MemoryConfiguration: Independent 
+
+
+...
+HDD
+  name: HDD1_STATUS
+  Status: present
+  LocateLEDStatus: 2
+
+  name: HDD2_STATUS
+  Status: present
+  LocateLEDStatus: 2
+
+  name: HDD3_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD4_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD5_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD6_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD7_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD8_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD9_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD10_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD11_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD12_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD13_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD14_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD15_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+  name: HDD16_STATUS
+  Status: absent
+  LocateLEDStatus: 2
+
+
+
+...
+PCI
+  Slot: L
+  VendorID: 0x8086
+  DeviceID: 0x1521
+  SubVendorID: 0x1137
+  SubDeviceID: 0x008b
+  ProductName: Intel(R) I350 1 Gbps Network Controller
+  fwVersion: 0x80000AA5-1.446.1
+
+  Slot: 1
+  VendorID: 0x1137
+  DeviceID: 0x0042
+  SubVendorID: 0x1137
+  SubDeviceID: 0x0085
+  ProductName: UCS VIC 1225 10Gbps 2 port CNA SFP+
+  fwVersion: N/A
+
+  Slot: 2
+  VendorID: 0x1077
+  DeviceID: 0x2532
+  SubVendorID: 0x1077
+  SubDeviceID: 0x015d
+  ProductName: Qlogic QLE2562 8 Gbps 2 port FC HBA
+  fwVersion: N/A
+
+  Slot: 3
+  VendorID: 0x1137
+  DeviceID: 0x0042
+  SubVendorID: 0x1137
+  SubDeviceID: 0x0085
+  ProductName: UCS VIC 1225 10Gbps 2 port CNA SFP+
+  fwVersion: N/A
+
+  Slot: 5
+  VendorID: 0x1077
+  DeviceID: 0x2532
+  SubVendorID: 0x1077
+  SubDeviceID: 0x015d
+  ProductName: Qlogic QLE2562 8 Gbps 2 port FC HBA
+  fwVersion: N/A
+
+  Slot: M
+  VendorID: 0x1000
+  DeviceID: 0x0073
+  SubVendorID: 0x1137
+  SubDeviceID: 0x00b1
+  ProductName: Cisco UCSC RAID SAS 2008M-8i
+  fwVersion: N/A
+
+
+
+...
+Power Supplies
+  deviceID: PSU1
+  Status: Present
+  Status2: equipped
+  InputWatt: 89
+  Power: on
+  OutputMaxWatt: N/A
+  fwVersion: 04030204
+  Model: DPS-650AB-2 A
+  MfgRev: 00
+  ProductID: UCSC-PSU-650W
+
+  deviceID: PSU2
+  Status: Present
+  Status2: equipped
+  InputWatt: 89
+  Power: on
+  OutputMaxWatt: N/A
+  fwVersion: 04030204
+  Model: DPS-650AB-2 A
+  MfgRev: 00
+  ProductID: UCSC-PSU-650W
+
+
+
+...
+Power Consumption information
+ curConsumption: 0
+ maxConsumption: 0
+ minConsumption: 0
+ lowerRange: 16777216
+ upperRange: 0
+ nonComplianceAction: 20
+ peakPower: 1
+ pwrcapEnabled: 0
+
+
+...
+LEDs
+  id: 1
+  ledName: FP_ID_LED
+  ledState: OFF
+  ledColor: BLUE
+
+  id: 2
+  ledName: LED_PSU_STATUS
+  ledState: ON
+  ledColor: GREEN
+
+  id: 3
+  ledName: LED_TEMP_STATUS
+  ledState: ON
+  ledColor: GREEN
+
+  id: 4
+  ledName: LED_FAN_STATUS
+  ledState: ON
+  ledColor: GREEN
+
+  id: 5
+  ledName: LED_HLTH_STATUS
+  ledState: ON
+  ledColor: GREEN
+
+  id: 0
+  ledName: OVERALL_DIMM_STATUS
+  ledState: ON
+  ledColor: GREEN
+
+
+
+...
+Adapter List
+		
+		...

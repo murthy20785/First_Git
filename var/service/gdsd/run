@@ -1,0 +1,9 @@
+#!/bin/sh
+logger -p user.info "gdsd start"
+spids=`pidof dataserver`
+rc=$?
+if [ $rc -eq 0 ]; then
+logger -p user.err "found stale dataserver pids $spids"
+killall -9 dataserver
+fi
+exec /usr/local/bin/dataserver.sh &> /dev/null

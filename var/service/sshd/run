@@ -1,0 +1,3 @@
+#!/bin/bash
+source /tmp/sshd.conf
+exec /usr/local/sbin/dropbear -j -x -F -r $PKEY -p $PORT -I $TIMEOUT 1> /dev/null 2> /dev/null

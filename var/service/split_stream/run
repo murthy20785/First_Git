@@ -1,0 +1,20 @@
+#!/bin/bash
+if [ -f /mnt/jffs2/ucsmode ]; then
+	UCSMODE=`cat /mnt/jffs2/ucsmode`
+fi
+
+if [[ $UCSMODE == "1" ]]; then
+	# IN UCSM mode, run standard init script.
+	exec /usr/local/bin/split_stream -p /dev/ttySrv0 -c /mnt/jffs2/com_share.cfg 1>/dev/null 2>/dev/null	
+else
+	sel=0
+	if [ -f /mnt/jffs2/com_selection ]; then 
+		sel=`cat /mnt/jffs2/com_selection`
+	fi
+
+	if [ $sel != 0 ] && [ $sel != 1 ]; then
+  		logger -d "Bad selection of com port: ${sel}. Valid values are 0 and 1"
+  		sel=0
+	fi
+	exec /usr/local/bin/split_stream -p /dev/ttySrv${sel} -c /mnt/jffs2/com_share.cfg 1>/dev/null 2>/dev/null 
+fi

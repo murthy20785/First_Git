@@ -1,0 +1,2 @@
+#!/bin/bash
+exec /usr/local/bin/sel_pigeon_cntr 1>/dev/null 2>/dev/null

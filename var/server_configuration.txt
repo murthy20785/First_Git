@@ -1,0 +1,39 @@
+
+Vmedia Settings
+
+Encryption_Enabled: No
+Enabled: Yes
+Max_Sessions: 1
+Active_Sessions: 0
+
+HTTP settings
+
+HTTP_Port: 80
+HTTPS_Port: 443
+Timeout: 1800
+Max_Sessions: 4
+Active_Sessions: 1
+Enabled: Yes
+HTTP_Redirected: Yes
+
+KVM settings
+
+Encryption_Enabled: No
+Max_Sessions: 4
+Local_Video: Yes
+Active_Sessions: 0
+Enabled: Yes
+KVM_Port: 2068
+
+SOL settings
+
+Enabled: No
+Baud_Rate-bps: 115200
+
+SSH settings
+
+SSH_Port: 22
+Timeout: 1800
+Max_Sessions: 4
+Active_Sessions: 0
+Enabled: Yes

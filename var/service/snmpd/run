@@ -1,0 +1,3 @@
+#! /bin/bash
+
+exec snmpd -f -C -c /var/snmp/snmpd.conf -LS 0-4 d 

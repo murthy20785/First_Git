@@ -1,0 +1,12 @@
+! /bin/bash
+
+APP="lv_dimm"
+FLASHLOCATION="/opt/flash/cisco/bin/${APP}"
+INITRAMFSLOCATION="/opt/cisco/bin/${APP}"
+
+if [ -e ${INITRAMFSLOCATION} ]; then
+	exec ${INITRAMFSLOCATION};
+elif [ -e ${FLASHLOCATION} ]; then
+	exec ${FLASHLOCATION};
+fi
+

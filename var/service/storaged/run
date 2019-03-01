@@ -1,0 +1,36 @@
+#!/bin/sh
+
+level="`sed -n 's/.*storelibdebuglevel=\([0-9]*\).*/\1/p' /proc/cmdline`"
+if [ -z "$level" ]
+then
+    level=0
+fi
+
+echo "DEBUGLEVEL=${level}
+DEBUGDIR=/var/log
+OVERWRITE=0
+SIMULATION=0
+OOB=1
+OOBPOLLINTERVAL=5
+OOBMAXWRITESIZE=32
+OOBMAXREADSIZE=32
+OOBMAXREADWRITESIZE=36
+OOB_DRIVER_NAME=/dev/i2c_drv" > /var/log/storelibconf.ini
+
+if [ "$level" -eq 0 ] || ps | grep -q 'logrotate.*storelibdebug'
+then
+    : do nothing
+else
+    logrotate /var/log/storelibdebug.txt &
+fi
+
+if [ -e /sbin/storaged ]
+then
+    exec /sbin/storaged -e -n >/dev/null 2>/dev/null < /dev/null
+elif [ -e /usr/local/bin/storaged ]
+then
+    exec /usr/local/bin/storaged -e -n >/dev/null 2>/dev/null < /dev/null    
+else
+    exec /opt/sbin/storaged -e -n >/dev/null 2>/dev/null < /dev/null
+fi
+

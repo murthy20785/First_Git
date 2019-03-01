@@ -1,0 +1,33 @@
+#!/bin/bash
+cd /
+program=avct_server
+SERVER=/sbin/$program
+
+function server_cleanup
+{
+    SIGNAL=$1
+    KILLED=`killall -$SIGNAL $program 2>&1 | grep 'no process killed'`
+    if [[ "$KILLED" == "" ]]
+    then
+        logger -t "service_run_avct_server" killed all avct_server processes with $SIGNAL
+        sleep 1
+    fi
+}
+
+# CSCuj70962: Ensure no avct_server processes are running before starting it up
+# First try to dump core so we can detect if this happened
+server_cleanup SIGSEGV
+# Then ensure it is terminated by using a signal that cannot be handled
+server_cleanup SIGKILL
+
+if [ -f /sbin/sessiondb ]; then
+    # Remove all avct_server KVM/VM session types from the session database
+    /sbin/sessiondb --remove --type 3 &>/dev/null
+fi
+
+## The memory used by the avct_server code is by definition not ECC protected,
+## so we never pass the -e flag to the app.  IF THIS CHANGES, a check will
+## have to be created to verify whether that portion of memory is protected
+## or not.  For performance concerns, it is unlikely that this will ever occur.
+exec $SERVER -d 6 &> /dev/null
+
